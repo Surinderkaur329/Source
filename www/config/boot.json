@@ -1,0 +1,435 @@
+{
+    "debugging": false,
+    "web_version": false,
+    "web_host": "",
+    "orientation": "landscape",
+    "start_screen": "splash_vid",
+    "start_screen2": "select_option",
+    
+    "unlock": {
+        "type": "Unlock",
+        "codes": ["hellonurse", "malaria"],
+        "next_screen": "splash",
+        "background": "luminous.png",
+        "audio": "",
+        "title": {
+            "text": "",
+            "text_style": {
+                "font": "bold 80px Forte",
+                "fill": "#fdc70a"
+            },
+            "position": {
+                "x": 620,
+                "y": 170
+            }
+        },
+        "content_frame": {
+            "radius": 20,
+            "color": "0xff0000",
+            "alpha": 0.6,
+            "width": 900,
+            "height": 600,
+            "position": {
+                "x": 190,
+                "y": 60
+            }
+        },
+        "unlock_code_label": {
+            "hint": "Enter Code",
+            "position": {
+                "x": 415,
+                "y": 250
+            },
+            "max_length": 8,
+            "width": 450,
+            "height": 80,
+            "text_style": {
+                "font": "30px Comic Sans MS",
+                "fill": "brown"
+            },
+            "label_style": {
+                "color": "0xffffff",
+                "border": {
+                    "color": "0x000000",
+                    "thickness": 2,
+                    "radius": 50
+                }
+            }
+        },
+        "exit_button": {
+            "image": "exit.png",
+            "visible": true,
+            "position": {
+                "x": 20,
+                "y": 20
+            },
+            "width": 96,
+            "height": 96
+        },
+        "unlock_button": {
+            "text": "Unlock",
+            "position": {
+                "x": 500,
+                "y": 460
+            },
+            "type": "image",
+            "image": "next_button.png",
+            "width": 240,
+            "height": 70,
+            "text_style": {
+                "font": "30px TitanOne Regular",
+                "fill": "white"
+            },
+            "button_style": {
+                "color": "0x217821",
+                "border": {
+                    "color": "0xffffff",
+                    "thickness": 1
+                }
+            }
+        }
+    },
+    "preloader": {
+        "load_progress_gif": "loading.gif"
+    },
+    "splash_vid": {
+        "type": "SplashVideo",
+        "next_screen": "menu",
+        "video": "luminous.mp4",
+        "video_off": true,
+        "image": "luminous.png"
+    },
+    "splash": {
+        "type": "Splash",
+        "next_screen": "home",
+        "background": "splash.png",
+        "progress": {
+            "bar": {
+                "color": "0xff0000",
+                "alpha": 1,
+                "width": 1280,
+                "height": 5,
+                "position": {
+                    "x": 0,
+                    "y": 720
+                }
+            },
+            "text": {
+                "style": {
+                    "font": "bold 32px Comic Sans MS",
+                    "align": "center",
+                    "fill": "#000000"
+                },
+                "err_style": {
+                    "font": "bold 32px Comic Sans MS",
+                    "align": "center",
+                    "fill": "#ff0000"
+                },
+                "position": {
+                    "x": 640,
+                    "y": 700
+                }
+            }
+        }
+    },
+    "menu": {
+        "background": "bg.png",
+        "components": "menu_new2",
+        "audio": "", 
+        "menu_item_width": 350,
+        "menu_item_height": 270,
+        "lockedDialog": {
+            "background": "modalbg.png",
+            "bg_scale": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "text_style": {
+                "fontSize": 60,
+                "fontFamily": "TitanOne Regular Black",
+                "color": "0xFEFF49",
+                "stroke": "0x000000",
+                "strokeThickness": 5,
+                "wordWrap": true,
+                "wordWrapWidth": 500,
+                "offsetY": 0,
+                "offsetX": 0
+            },
+            "close_button": {
+                "type": "image",
+                "image": "close.png",
+                "audio": "ClickOn.mp3",
+                "image_scale": 0.33,
+                "text": "X",
+                "text_style": {
+                    "fontSize": 42,
+                    "color": "0xFEFF49"
+                },
+                "offsetY": -130,
+                "offsetX": 240
+            }
+        },
+        "exitDialog": {
+            "background": "modalbgnew.png",
+            "bg_scale": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "exit_signout_button": {
+                "next_screen": "loginreg",
+                "type": "text",
+                "text": "Exit & Sign Out",
+                "text_style": {
+                    "fontSize": 60,
+                    "fontFamily": "TitanOne Regular Black",
+                    "color": "0xFFFFFF",
+                    "stroke": "0x000000",
+                    "strokeThickness": 5
+                },
+                "offsetY": -50,
+                "offsetX": 0
+            },
+            "exit_button": {
+                "type": "text",
+                "audio": "ClickOn.mp3",
+                "image": "close.png",
+                "text": "Exit",
+                "text_style": {
+                    "fontSize": 60,
+                    "fontFamily": "TitanOne Regular Black",
+                    "color": "0xFFFFFF",
+                    "stroke": "0x000000",
+                    "strokeThickness": 5
+                },
+                "offsetY": 50,
+                "offsetX": 0
+            },
+            "close_button": {
+                "type": "image",
+                "audio": "ClickOn.mp3",
+                "image": "close.png",
+                "image_scale": 0.33,
+                "text": "X",
+                "text_style": {
+                    "fontSize": 42,
+                    "color": "0xFEFF49"
+                },
+                "offsetY": -130,
+                "offsetX": 240
+            }
+        },
+        "badge": {
+            "image": "blank.png",
+            "position": {
+                "x": 20,
+                "y": 616
+            },
+            "text_style": {
+                "font": "bold 22pt TitanOne Regular",
+                "fill": "black"
+            }
+        },
+        "settings_button": {
+            "image": "settings.png",
+            "audio": "ClickOn.mp3",
+            "position": {
+                "x": 1165,
+                "y": 20
+            },
+            "children": {
+                "sound_button": {
+                    "on_image": "sound.png",
+                    "audio": "ClickOn.mp3",
+                    "off_image": "soundoff.png",
+                    "position": {
+                        "x": 20,
+                        "y": 124
+                    }
+                },
+                "music_button": {
+                    "on_image": "music.png",
+                    "off_image": "musicoff.png",
+                    "audio": "ClickOn.mp3",
+                    "position": {
+                        "x": 20,
+                        "y": 228
+                    }
+                },
+                "edit_password_button": {
+                    "image": "blank.png",
+                    "audio": "ClickOn.mp3",
+                    "position": {
+                        "x": 20,
+                        "y": 332
+                    }
+                }
+            }
+        },
+        "options_button": {
+            "image": "options.png",
+            "audio": "ClickOn.mp3",
+            "position": {
+                "x": 1165,
+                "y": 610
+            },
+            "children": {
+                "info_button": {
+                    "audio": "ClickOn.mp3",
+                    "image": "info.png",
+                    "type": "",
+                    "position": {
+                        "x": 1165,
+                        "y": 506
+                    }
+                },
+                "exit_button": {
+                    "audio": "ClickOn.mp3",
+                    "image": "blank.png",
+                    "position": {
+                        "x": 1165,
+                        "y": 228
+                    }
+                }
+            }
+        },
+        "share_button": {
+            "audio": "ClickOn.mp3",
+            "image": "blank.png",
+            "position": {
+                "x": 1165,
+                "y": 614
+            },
+            "children": {
+                "facebook_button": {
+                    "audio": "ClickOn.mp3",
+                    "image": "blank.png",
+                    "position": {
+                        "x": 1165,
+                        "y": 406
+                    }
+                },
+                "twitter_button": {
+                    "audio": "ClickOn.mp3",
+                    "image": "blank.png",
+                    "position": {
+                        "x": 1165,
+                        "y": 510
+                    }
+                }
+            },
+            "disabled": true
+        },
+        "back_button":{
+            "next_screen": "home",
+            "image": "blank.png",
+            "position": {
+                "x": -200,
+                "y": 20
+            },
+            "width": 20, "height": 20
+        },
+        "submenu": {
+            "background": "bg.png",
+            "components": "menu_new2",
+            "audio": "",
+            "menu_item_width": 450,
+            "menu_item_height": 347,
+            "settings_button": {
+                "image": "settings.png",
+                "audio": "ClickOn.mp3",
+                "position": {
+                    "x": 1165,
+                    "y": 20
+                },
+                "children": {
+                    "sound_button": {
+                        "on_image": "sound.png",
+                        "audio": "ClickOn.mp3",
+                        "off_image": "soundoff.png",
+                        "position": {
+                            "x": 20,
+                            "y": 124
+                        }
+                    },
+                    "music_button": {
+                        "on_image": "music.png",
+                        "off_image": "musicoff.png",
+                        "audio": "ClickOn.mp3",
+                        "position": {
+                            "x": 20,
+                            "y": 228
+                        }
+                    },
+                    "edit_password_button": {
+                        "image": "blank.png",
+                        "audio": "ClickOn.mp3",
+                        "position": {
+                            "x": 20,
+                            "y": 332
+                        }
+                    }
+                }
+            },
+            "options_button": {
+                "image": "options.png",
+                "audio": "ClickOn.mp3",
+                "position": {
+                    "x": 1165,
+                    "y": 610
+                },
+                "children": {
+                    "info_button": {
+                        "audio": "ClickOn.mp3",
+                        "image": "info.png",
+                        "type": "",
+                        "position": {
+                            "x": 1165,
+                            "y": 506
+                        }
+                    },
+                    "exit_button": {
+                        "audio": "ClickOn.mp3",
+                        "image": "blank.png",
+                        "position": {
+                            "x": 1165,
+                            "y": 228
+                        }
+                    }
+                }
+            },
+            "back_button": {
+                "next_screen": "menu",
+                "audio": "",
+                "next_screen2": "",
+                "image": "back.png",
+                "position": {
+                    "x": 20,
+                    "y": 20
+                },
+                "width": 20,
+                "height": 20
+            }
+        },
+        "purchase_button": {
+            "next_screen": "Purchase",
+            "image": "purchase_button.png",
+            "audio": "ClickOn.mp3",
+            "position": {
+                "x": 1165,
+                "y": 367
+            }
+        }
+    },
+    "back_button": {
+        "next_screen": "select_option",
+        "next_screen2": "select_game",
+        "image": "back.png",
+        "position": {
+            "x": 20,
+            "y": 600
+        },
+        "width": 20,
+        "height": 20
+    },
+    "background":{
+        "Menu_audio": "Music/Theme_song1.mp3"
+    }
+}

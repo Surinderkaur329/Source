@@ -1,0 +1,767 @@
+{
+	"jsonData": [
+		{
+			"ShowedLevel": "1 - A",
+			"level": 1,
+			"step": 0.004,
+			"num": 1,
+			"step_interval": 30,
+          "dock": {
+            "position": {"x": 42, "y": 85},
+            "width": 638,
+            "height": 200,
+            "color": "0x4d4d4d",
+            "alpha": 0.7
+          },
+			"main_image": [
+				{
+					"image": "game1a/silo.png",
+					"position": {"x": 360, "y": 830}
+				}
+			],
+			"slot_items": [
+				{
+					"image": "game1a/triangle.png",
+					"active": false,
+					"end_position": [{"position":1,"x":0,"y":0}],
+					"begin_position": {"x": 260.50, "y": 196.50},
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "triangle.mp3"
+				},
+				{
+					"image": "game1a/rectangle.png",
+					"begin_position": {"x": 615, "y": 248},
+					"active": false,
+					"end_position": [{"position":2,"x":0,"y":0}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "rectangle.mp3"
+				},
+				{
+					"image": "game1a/circle.png",
+					"begin_position": {"x": 114, "y": 227},
+					"active": false,
+					"end_position": [{"position":3,"x":0,"y":0}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "circle.mp3"
+				},
+				{
+					"image": "game1a/square.png",
+					"begin_position": {"x": 450.50, "y": 193},
+					"end_position": [{"position":4,"x":363,"y":826}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				}
+			]
+		},
+		{
+            "ShowedLevel": "1 - B",
+			"level": 2,
+			"step": 0.004,
+			"num": 1,
+			"step_interval": 30,
+			"dock": {
+				"position": {"x": 42, "y": 85},
+				"width": 638,
+				"height": 200,
+				"color": "0x4d4d4d",
+				"alpha": 0.7
+			},
+			"main_image": [
+				{
+					"image": "game1b/silo.png",
+					"position": {"x": 360, "y": 848}
+				}
+			],
+			"slot_items": [
+				{
+					"image": "game1b/triangle.png",
+					"begin_position": {"x": 459.50, "y": 176.50},
+					"end_position": [{"position":1,"x":359,"y":847}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "triangle.mp3"
+				},
+				{
+					"image": "game1b/rectangle3.png",
+					"begin_position": {"x": 122.50, "y": 254},
+					"active": false,
+					"end_position": [{"position":2,"x":0,"y":0}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "rectangle.mp3"
+				},
+				{
+					"image": "game1b/circle3.png",
+					"begin_position": {"x": 630.50, "y": 232.50},
+					"active": false,
+					"end_position": [{"position":3,"x":0,"y":0}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "circle.mp3"
+				},
+				{
+					"image": "game1b/square3.png",
+					"begin_position": {"x": 269, "y": 221},
+					"active": false,
+					"end_position": [{"position":4,"x":0,"y":0}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				}
+			]
+		},
+		{
+            "ShowedLevel": "1 - C",
+			"level": 3,
+			"step": 0.004,
+			"num": 2,
+			"step_interval": 30,
+			"dock": {
+				"position": {"x": 42, "y": 85},
+				"width": 638,
+				"height": 200,
+				"color": "0x4d4d4d",
+				"alpha": 0.7
+			},
+			"main_image": [
+				{
+					"image": "game1c/silo.png",
+					"position": {"x": 360.50, "y": 843}
+				}
+			],
+			"slot_items": [
+				{
+					"image": "game1c/triangle.png",
+					"begin_position": {"x": 220.50, "y": 210.50 },
+					"end_position": [{"position":1,"x":180.50,"y":867.50}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "triangle.mp3"
+				},
+				{
+					"image": "game1c/rectangle.png",
+					"begin_position": {"x": 455.50, "y": 239.50},
+					"end_position": [{"position":2,"x":493.50,"y":1061.50}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "rectangle.mp3"
+				},
+				{
+					"image": "game1c/circle.png",
+					"begin_position": {"x": 92, "y": 232},
+					"active": false,
+					"end_position": [{"position":3,"x":0,"y":0}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "circle.mp3"
+				},
+				{
+					"image": "game1c/square.png",
+					"begin_position": {"x": 644, "y": 245},
+					"active": false,
+					"end_position": [{"position":4,"x":0,"y":0}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				}
+			]
+		},
+
+		{
+			"ShowedLevel": "2 - A",
+			"level": 4,
+			"step": 0.004,
+			"num": 3,
+			"step_interval": 30,
+			"dock": {
+				"position": {"x": 42, "y": 85},
+				"width": 638,
+				"height": 200,
+				"color": "0x4d4d4d",
+				"alpha": 0.7
+			},
+			"main_image": [
+				{
+					"image": "game2a/silo.png",
+					"position": {"x": 360, "y": 775.50}
+				}
+			],
+			"slot_items": [
+				{
+					"image": "game2a/square.png",
+					"begin_position": {"x": 220, "y": 188.50 },
+					"end_position": [{"position":1,"x":359.50,"y":678.50}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				},
+				{
+					"image": "game2a/circle.png",
+					"begin_position": {"x": 390, "y": 209},
+					"end_position": [{"position":2,"x":360,"y":517}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "circle.mp3"
+				},
+				{
+					"image": "game2a/rectangle.png",
+					"begin_position": {"x": 85, "y": 208.50},
+					"active": false,
+					"end_position": [{"position":3,"x":0,"y":0}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "rectangle.mp3"
+				},
+				{
+					"image": "game2a/triangle.png",
+					"begin_position": {"x": 573.50, "y": 184},
+					"end_position": [{"position":4,"x":359.50,"y":856}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "triangle.mp3"
+				}
+			]
+		},
+		{
+			"ShowedLevel": "2 - B",
+			"level": 5,
+			"step": 0.004,
+			"num": 4,
+			"step_interval": 30,
+			"dock": {
+				"position": {"x": 42, "y": 85},
+				"width": 638,
+				"height": 200,
+				"color": "0x4d4d4d",
+				"alpha": 0.7
+			},
+			"main_image": [
+				{
+					"image": "game2b/silo.png",
+					"position": {"x": 360, "y": 827.50}
+				}
+			],
+			"slot_items": [
+				{
+					"image": "game2b/circle.png",
+					"begin_position": {"x":  392, "y": 206.50 },
+					"end_position": [{"position":1,"x":364.50,"y":618.50}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "circle.mp3"
+				},
+				{
+					"image": "game2b/rectangle.png",
+					"begin_position": {"x": 574, "y": 217},
+					"end_position": [{"position":2,"x":364,"y":758.50}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "rectangle.mp3"
+				},
+				{
+					"image": "game2b/square1.png",
+					"begin_position": {"x": 110.50, "y": 218},
+					"end_position": [{"position":3,"x":280,"y":896},{"position":4,"x":437.50,"y":896}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				},
+				{
+					"image": "game2b/square2.png",
+					"begin_position": {"x": 250, "y": 218},
+					"end_position": [{"position":3,"x":280,"y":896},{"position":4,"x":437.50,"y":896}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				}
+			]
+		},
+		{
+			"ShowedLevel": "2 - C",
+			"level": 6,
+			"step": 0.004,
+			"num": 6,
+			"step_interval": 30,
+			"dock": {
+				"position": {"x": 42, "y": 85},
+				"width": 638,
+				"height": 200,
+				"color": "0x4d4d4d",
+				"alpha": 0.7
+			},
+			"main_image": [
+				{
+					"image": "game2c/silo.png",
+					"position": {"x": 365, "y": 895}
+				}
+			],
+			"slot_items": [
+				{
+					"image": "game2c/triangle.png",
+					"begin_position": {"x": 547, "y": 220.50},
+					"end_position": [{"position":1,"x":365,"y":854.50}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "triangle.mp3"
+				},
+				{
+					"image": "game2c/circle.png",
+					"begin_position": {"x": 100.50, "y": 221.50 },
+					"end_position": [{"position":2,"x":368.50,"y":739.50}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "circle.mp3"
+				},
+				{
+					"image": "game2c/rectangle1.png",
+					"begin_position": {"x": 235, "y": 239.50},
+					"end_position": [{"position":3,"x":220,"y":823.50},{"position":5,"x":509,"y":823.50}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "rectangle.mp3"
+				},
+				{
+					"image": "game2c/square1.png",
+					"begin_position": {"x": 365 , "y": 231},
+					"end_position": [{"position":4,"x":319,"y":952},{"position":6,"x":407,"y":952}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				},
+				{
+					"image": "game2c/rectangle2.png",
+					"begin_position": {"x": 235, "y": 239.50},
+					"end_position": [{"position":3,"x":220,"y":823.50},{"position":5,"x":509,"y":823.50}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "rectangle.mp3"
+				},
+				{
+					"image": "game2c/square2.png",
+					"begin_position": {"x": 365, "y": 231},
+					"end_position": [{"position":4,"x":319,"y":952},{"position":6,"x":407,"y":952}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				}
+			]
+		},
+
+		{
+			"ShowedLevel": "3 - A",
+			"level": 7,
+			"step": 0.004,
+			"num": 8,
+			"step_interval": 30,
+			"dock": {
+				"position": {"x": 42, "y": 65},
+				"width": 638,
+				"height": 250,
+				"color": "0x4d4d4d",
+				"alpha": 0.7
+			},
+			"main_image": [
+				{
+					"image": "game3a/silo.png",
+					"position": {"x": 360, "y": 933.50}
+				}
+			],
+			"slot_items": [
+				{
+					"image": "game3a/rectangle1.png",
+					"begin_position": {"x": 115, "y": 183 },
+					"end_position": [{"position":1,"x":360.50,"y":887}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "rectangle.mp3"
+				},
+				{
+					"image": "game3a/square1.png",
+					"begin_position": {"x": 232.50, "y": 259},
+					"end_position": [{"position":2,"x":242.50,"y":1059.50},{"position":5,"x":475.50,"y":1059.50}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				},
+				{
+					"image": "game3a/triangle3.png",
+					"begin_position": {"x": 381, "y": 258},
+					"end_position": [{"position":3,"x":154,"y":1059.50},{"position":7,"x":565,"y":1059}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "triangle.mp3"
+				},
+				{
+					"image": "game3a/rectangle2.png",
+					"begin_position": {"x": 571.50, "y": 258},
+					"end_position": [{"position":4,"x":359.50,"y":1059}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "rectangle.mp3"
+				},
+
+				{
+					"image": "game3a/square2.png",
+					"begin_position": {"x": 273.50, "y": 259},
+					"end_position": [{"position":2,"x":242.50,"y":1059.50},{"position":5,"x":475.50,"y":1059.50}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				},
+				{
+					"image": "game3a/triangle1.png",
+					"begin_position": {"x": 109, "y": 234},
+					"end_position": [{"position":6,"x":300,"y":832}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "triangle.mp3"
+				},
+				{
+					"image": "game3a/triangle4.png",
+					"begin_position": {"x": 445.50, "y": 258},
+					"end_position": [{"position":7,"x":565,"y":1059},{"position":3,"x":154,"y":1059.50}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "triangle.mp3"
+				},
+				{
+					"image": "game3a/triangle2.png",
+					"begin_position": {"x": 595, "y": 234},
+					"end_position": [{"position":8,"x":422,"y":835}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "triangle.mp3"
+				}
+			]
+		},
+		{
+			"ShowedLevel": "3 - B",
+			"level": 8,
+			"step": 0.004,
+			"num": 6,
+			"step_interval": 30,
+			"dock": {
+				"position": {"x": 42, "y": 85},
+				"width": 638,
+				"height": 200,
+				"color": "0x4d4d4d",
+				"alpha": 0.7
+			},
+			"main_image": [
+				{
+					"image": "game3b/silo.png",
+					"position": {"x": 364, "y": 898}
+				}
+			],
+			"slot_items": [
+				{
+					"image": "game3b/triangle.png",
+					"begin_position": {"x": 118, "y": 216 },
+					"end_position": [
+						{"position":1,"x": 177.00, "y": 795.00}
+					],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "triangle.mp3"
+				},
+				{
+					"image": "game3b/triangle4.png",
+					"begin_position": {"x": 443, "y": 216},
+					"end_position": [
+						{"position":2,"x": 551.00, "y": 795.00}
+					],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "triangle.mp3"
+				},
+				{
+					"image": "game3b/rectangle1.png",
+					"begin_position": {"x": 277, "y": 231},
+					"end_position": [
+						{"position":3,"x": 148.50, "y": 908.00},
+						{"position":4,"x": 580.00, "y": 908.00}
+					],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "rectangle.mp3"
+				},
+				{
+					"image": "game3b/circle.png",
+					"begin_position": {"x": 604, "y": 200},
+					"end_position": [
+						{"position":5,"x": 568.50, "y": 1030.00}
+					],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "circle.mp3"
+				},
+
+				{
+					"image": "game3b/rectangle5.png",
+					"begin_position": {"x": 277, "y": 231},
+					"end_position": [
+						{"position":3,"x": 148.50, "y": 908.00},
+						{"position":4,"x": 580.00, "y": 908.00}
+					],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "rectangle.mp3"
+				},
+				{
+					"image": "game3b/arc.png",
+					"begin_position": {"x": 445, "y": 253.50},
+					"end_position": [
+						{"position":6,"x": 426, "y": 713.50 }
+					],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "arc.mp3"
+				}
+			]
+		},
+
+		{
+			"ShowedLevel": "4 - A",
+			"level": 9,
+			"step": 0.004,
+			"num": 4,
+			"step_interval": 30,
+			"dock": {
+				"position": {"x": 42, "y": 85},
+				"width": 638,
+				"height": 200,
+				"color": "0x4d4d4d",
+				"alpha": 0.7
+			},
+			"main_image": [
+				{
+					"image": "game4a/silo.png",
+					"position": {"x": 360, "y": 885}
+				}
+			],
+			"slot_items": [
+				{
+					"image": "game4a/triangle.png",
+					"begin_position": {"x": 435.50, "y": 202 },
+					"end_position": [{"position":1,"x":210.50,"y":865},{"position":3,"x":509.50,"y":865}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "triangle.mp3"
+				},
+				{
+					"image": "game4a/square.png",
+					"begin_position": {"x": 590.50 , "y": 190.50},
+					"end_position": [{"position":2,"x":360.50,"y":867.50}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				},
+				{
+					"image": "game4a/triangle2.png",
+					"begin_position": {"x": 295.50, "y": 202},
+					"end_position": [{"position":1,"x":210.50,"y":865},{"position":3,"x":509.50,"y":865}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "triangle.mp3"
+				},
+				{
+					"image": "game4a/arc.png",
+					"begin_position": {"x": 135.50, "y": 231},
+					"end_position": [{"position":4,"x":360,"y":1008}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "arc.mp3"
+				}
+			]
+		},
+		{
+			"ShowedLevel": "4 - B",
+			"level": 10,
+			"step": 0.004,
+			"num": 8,
+			"step_interval": 30,
+			"dock": {
+				"position": {"x": 42, "y": 85},
+				"width": 638,
+				"height": 200,
+				"color": "0x4d4d4d",
+				"alpha": 0.7
+			},
+			"main_image": [
+				{
+					"image": "game4b/silo.png",
+					"position": {"x": 364, "y": 874}
+				}
+			],
+			"slot_items": [
+				{
+					"image": "game4b/rectangle1.png",
+					"begin_position": {"x": 418, "y": 196 },
+					"end_position": [{"position":1,"x":459,"y":1017}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "rectangle.mp3"
+				},
+				{
+					"image": "game4b/square_silo.png",
+					"begin_position": {"x": 531.50, "y": 1008},
+					"end_position": [{"position":7,"x":0,"y":0}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3",
+					"active": false,
+					"silo": true
+				},
+				{
+					"image": "game4b/square_silo.png",
+					"begin_position": {"x": 453, "y": 1008},
+					"end_position": [{"position":8,"x":0,"y":0}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3",
+					"active": false,
+					"silo": true
+				},
+				{
+					"image": "game4b/rectangle_silo.png",
+					"begin_position": {"x": 381, "y": 1037},
+					"end_position": [{"position":6,"x":0,"y":0}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "rectangle.mp3",
+					"active": false,
+					"silo": true
+				},
+
+				{
+					"image": "game4b/square2.png",
+					"begin_position": {"x":  100, "y": 245},
+					"end_position": [{"position":3,"x": 531.50, "y": 1008},{"position":4,"x": 453, "y": 1008}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				},
+				{
+					"image": "game4b/square3.png",
+					"begin_position": {"x": 620, "y": 245},
+					"end_position": [{"position":3,"x": 531.50, "y": 1008},{"position":4,"x": 453, "y": 1008}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				},
+				{
+					"image": "game4b/rectangle2.png",
+					"begin_position": {"x": 213.00 , "y": 215.50},
+					"end_position": [{"position":2,"x":381,"y":1037}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "rectangle.mp3"
+				},
+
+
+				{
+					"image": "game4b/triangle.png",
+					"begin_position": {"x": 138, "y": 204},
+					"end_position": [{"position":9,"x":220.50,"y":723}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "triangle.mp3"
+				},
+				{
+					"image": "game4b/square4.png",
+					"begin_position": {"x": 416, "y": 219},
+					"end_position": [{"position":10,"x":220,"y":864}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				},
+				{
+					"image": "game4b/square1.png",
+					"begin_position": {"x": 578, "y": 193.50},
+					"end_position": [{"position":12,"x":220.50,"y":1016.50}],
+					"disable_rotation":  false,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "square.mp3"
+				},
+				{
+					"image": "game4b/circle_silo.png",
+					"begin_position": {"x": 220.50, "y": 864.00},
+					"end_position": [{"position":5,"x":0,"y":0}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "circle.mp3",
+					"active": false,
+					"silo": true
+				},
+				{
+					"image": "game4b/circle.png",
+					"begin_position": {"x": 285, "y": 229},
+					"end_position": [{"position":11,"x":220.50,"y":864.00}],
+					"disable_rotation":  true,
+					"begin_rotation": 0,
+					"end_rotation": 0,
+					"sound": "circle.mp3"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "text": "Hello Nurse!",
+        "image": "welcome.png",
+        "action": "For strating the game and completing the first activity!",
+        "message": "Hello Nurse! — The first step is always to start. Welcome!"
+    },
+    {
+        "id": 2,
+        "text": "Eyes Wide Open",
+        "image": "good_eye.png",
+        "action": "For identifying the water puddles as a malaria health risk.",
+        "message": "For spotting the puddles of water and seeing them as potential breeding areas for mosquitoes. Well Done!"
+    },
+    {
+        "id": 3,
+        "text": " Sleep Protector",
+        "image": "sleep_protector.png",
+        "action": "For spotting a bed without an ITN as a malaria health risk.",
+        "message": "You're looking out for your community members and making sure they sleep soundly and safely, free from mosquitoes. Well Done!"
+    },
+    {
+        "id": 4,
+        "text": "Net Expert!",
+        "image": "net_expert.png",
+        "action": "For knowing the correct process for hanging an ITN",
+        "message": "There may be things you don’t know — no one is perfect — but nobody can say you can’t hang an ITN net. Bravo!"
+    },
+    {
+        "id": 5,
+        "text": "Uncomplicated Diagnostician",
+        "image": "uncomplicated_diagnostician.png",
+        "action": "For making a correct diagnosis of Uncomplicated Malaria",
+        "message": "Wow, is anyone able to recognize uncomplicated malaria as easily as you? We don't think so. For that, you deserve a badge!"
+    },
+    {
+        "id": 6,
+        "text": "Good Supervisor!",
+        "image": "good_supervisor.png",
+        "action": "For observing best practices for supervising CBAs/Volunteers",
+        "message": "Volunteers and CBAs are confident of being able to take charge of most basic situations around malaria, and they’re  happy to have a good supervisor like you. Keep up the Good Work!"
+    },
+    {
+        "id": 7,
+        "text": "COMMUNITY HEALTH NURSE!",
+        "image": "community_nurse.png",
+        "action": "For completing the Community Health Scenario",
+        "message": "CONGRATULATIONS Nurse!You deserve this, go celebrate your hardwork!"
+    }
+]

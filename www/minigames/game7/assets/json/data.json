@@ -1,0 +1,259 @@
+{
+	"jsonData": [
+
+		{
+			"balls": 4,
+			"level":"1-1",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[888,342], [628,396], [350,342],[630,262]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["blue","red","red","red"],
+			"port": ["blue","blue","red","red"],
+			"timer": 5000
+		},
+		{
+			"balls": 4,
+			"level":"1-2",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[888,342], [628,396], [350,342],[630,262]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["red","blue","blue","blue"],
+			"port": ["blue","blue","red","red"],
+			"timer": 5000
+		},
+		{
+			"balls": 4,
+			"level":"1-3",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[888,342], [628,396], [350,342],[630,262]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["green","yellow","yellow","yellow"],
+			"port": ["green","green","yellow","yellow"],
+			"timer": 5000
+		},
+		{
+			"balls": 4,
+			"level":"1-4",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[888,342], [628,396], [350,342],[630,262]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["yellow","green","green","green"],
+			"port": ["green","green","yellow","yellow"],
+			"timer": 5000
+		},
+		{
+			"balls": 4,
+			"level":"1-5",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[888,342], [628,396], [350,342],[630,262]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["orange","purple","purple","purple"],
+			"port": ["purple","purple","orange","orange"],
+			"timer": 5000
+		},
+		{
+			"balls": 4,
+			"level":"1-6",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[888,342], [628,396], [350,342],[630,262]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["purple","orange","orange","orange"],
+			"port": ["purple","purple","orange","orange"],
+			"timer": 5000
+		},
+
+		{
+			"balls": 4,
+			"level":"2-1",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[777,342], [628,296], [450,342],[630,362]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["blue","blue","red","red"],
+			"port": ["blue","blue","red","red"],
+			"timer": 3000
+		},
+		{
+			"balls": 4,
+			"level":"2-2",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[777,342], [628,296], [450,342],[630,362]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["red","red","blue","blue"],
+			"port": ["blue","blue","red","red"],
+			"timer": 3000
+		},
+		{
+			"balls": 4,
+			"level":"2-3",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[777,342], [628,296], [450,342],[630,362]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["green","green","yellow","yellow"],
+			"port": ["green","green","yellow","yellow"],
+			"timer": 3000
+		},
+		{
+			"balls": 4,
+			"level":"2-4",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[777,342], [628,296], [450,342],[630,362]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["yellow","yellow","green","green"],
+			"port": ["green","green","yellow","yellow"],
+			"timer": 3000
+		},
+		{
+			"balls": 4,
+			"level":"2-5",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[777,342], [628,296], [450,342],[630,362]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["orange","orange","purple","purple"],
+			"port": ["orange","orange","purple","purple"],
+			"timer": 3000
+		},
+		{
+			"balls": 4,
+			"level":"2-6",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[777,342], [628,296], [450,342],[630,362]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["purple","purple","orange","orange"],
+			"port": ["purple","purple","orange","orange"],
+			"timer": 3000
+		},
+
+		{
+			"balls": 4,
+			"level":"3-1",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[777,342], [628,296], [450,342],[630,362]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["red","green","blue","yellow"],
+			"port": ["red","green","blue","yellow"],
+			"timer": 3000
+		},
+		{
+			"balls": 4,
+			"level":"3-2",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[777,342], [628,296], [450,342],[630,362]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["orange","purple","pink","violet"],
+			"port": ["orange","purple","pink","violet"],
+			"timer": 3000
+		},
+		{
+			"balls": 4,
+			"level":"3-3",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[777,342], [628,296], [450,342],[630,362]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["green","purple","pink","brown"],
+			"port": ["green","purple","pink","brown"],
+			"timer": 3000
+		},
+		{
+			"balls": 4,
+			"level":"3-4",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[777,342], [628,296], [450,342],[630,362]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["blue","brown","pink","gray"],
+			"port": ["blue","brown","pink","gray"],
+			"timer": 3000
+		},
+		{
+			"balls": 4,
+			"level":"3-5",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[777,342], [628,296], [450,342],[630,362]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["orange","purple","violet","orange"],
+			"port": ["orange","purple","violet","orange"],
+			"timer": 3000
+		},
+		{
+			"balls": 4,
+			"level":"3-6",
+			"ball_positions": [
+				[730,345], [628,435], [520,345],[630,250]
+			],
+			"black_ball_positions": [
+				[777,342], [628,296], [450,342],[630,362]
+			],
+			"cue_stick_angles": [[1,1],[3,2],[2,1],[1,2]],
+			"colors": ["purple","gray","pink","brown"],
+			"port": ["purple","gray","pink","brown"],
+			"timer": 3000
+		}
+	]
+}

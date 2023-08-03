@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "text": "HEALTHY START",
+        "image": "Healhty-start.png",
+        "action": "Breakfast Badge",
+        "message": "Yes — Breakfast is the most important meal of the day to get you started right. Congratulations on getting the right start!"
+    },
+    {
+        "id": 2,
+        "text": "Prepared for Success",
+        "image": "Prepared-for-success.png",
+        "action": "Skilled Lesson Badge",
+        "message": "Well done for taking the time to prepare so thoroughly. You can never over prepare for talking to clients. Lives depend on the information you give. Wear this badge with pride!"
+    },
+    {
+        "id": 3,
+        "text": "HIV Facts Guru",
+        "image": "HIV-Facts-Guru.png",
+        "action": "Guru! Guru! Guru! ",
+        "message": "Guru! Guru! Guru! -Yes, that chant is for you for knocking out Basic STI Facts simply.\nKeep at it and you'll be an undefeated champion for STI services care!"
+    },
+    {
+        "id": 4,
+        "text": "Ready to Heal",
+        "image": "Ready-to-Heal.png",
+        "action": "Skilled Lesson Badge",
+        "message": "Preparation is always key to success.You've shown dedication to helping resolve this issue and to help your client start the journey of healing.  Wear this badge with pride!"
+    },
+    {
+        "id": 5,
+        "text": "No Escape for STIs ",
+        "image": "No-Escape-for-STI.png",
+        "action": "STI Lesson Badge",
+        "message": "You did it! \nYour screening for STIs was thorough and respectful.\nYour clients thank you for your dedicated service.Ayekoo!"
+    },
+    {
+        "id": 6,
+        "text": "Peace Maker",
+        "image": "No-Escape-for-STI.png",
+        "action": "Peace Maker Badge",
+        "message": "Congratulations! You handled that expertly. \nWith both Chris and Adwoa, you used empathy to show them you care and understand but also ensured with firmness that the right thing was done. \n"
+    }
+    
+]

@@ -1,0 +1,1448 @@
+[
+  {
+    "level": 1,
+    "ShowedLevel":"1 - A",
+    "balls": 1,
+    "total_balls": 1,
+    "type":"sub",
+    "items":[
+      {
+        "image": "tri_01.png",
+        "type": "barrier",
+        "position": {"x": 333.50, "y": 602.00  },
+        "child":true,
+        "name":"tri_01"
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 635.50 , "y": 130.50}
+      },
+      {
+        "image": "gear01.png",
+        "type": "gear",
+        "child":false,
+        "speed": 2,
+        "position": {"x": 885.50 , "y": 446.50}
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "ShowedLevel":"1 - B",
+    "balls": 2,
+    "total_balls": 2,
+    "type":"sub",
+    "items":[
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 635.50 , "y": 130.50}
+      },
+      {
+        "image": "bar_02.png",
+        "type": "barrier",
+        "child":true,
+        "name":"bar_7",
+        "position": {"x":446.50 , "y": 602.00}
+      },
+      {
+        "image": "bar_03.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x":689.50 , "y": 376.00}
+      },
+      {
+        "image": "tri_02.png",
+        "type": "barrier",
+        "speed": 2,
+        "child":true,
+        "name":"tri_02",
+        "position": {"x": 791.00, "y": 291.50 }
+      },
+      {
+        "image": "gear01.png",
+        "type": "gear",
+        "speed": 2,
+        "child":false,
+        "position": {"x": 261.50, "y": 446.00}
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "ShowedLevel":"1 - C",
+    "balls": 3,
+    "total_balls": 3,
+    "type":"sub",
+    "items":[
+      {
+        "image": "gear01.png",
+        "type": "gear",
+        "speed": 2,
+        "position": {"x": 255.50, "y": 396.50 }
+      },
+      {
+        "image": "tri_01.png",
+        "type": "barrier",
+        "child":true,
+        "name":"tri_01",
+        "position": {"x": 431.50, "y": 602 }
+      },{
+        "image": "tri_02.png",
+        "type": "barrier",
+        "child":true,
+        "name":"tri_02",
+        "position": {"x": 535.00, "y": 219.50 }
+      },
+      {
+        "image": "bar_04.png",
+        "type": "barrier",
+        "child":true,
+        "name":"bar_6",
+        "position": {"x": 822.50, "y": 291.00}
+      },
+
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 635.50, "y": 130.50}
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 635.50, "y": 597.50}
+      },
+      {
+        "image": "bar_03.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 912.50, "y": 376.00}
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "ShowedLevel": "1 - D",
+    "balls": 4,
+    "total_balls": 4,
+    "type":"main",
+    "numbers": ["",1,4,3],
+    "items":[
+      {
+        "image": "tri_1.png",
+        "type": "barrier",
+        "child":true,
+        "name":"tri_1",
+        "position": {"x": 257.50 , "y": 303 }
+      },
+      {
+        "image": "tri_01.png",
+        "type": "barrier",
+        "child":true,
+        "name":"tri_01",
+        "position": {"x": 651.50   , "y": 602 }
+      },
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "child":false,
+        "speed": 2,
+        "position": {"x": 758.50, "y": 297.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 635.50   , "y": 130.50  }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 843.50   , "y": 286.50  }
+      },
+      {
+        "image": "bar_03.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 642.50 , "y": 213 }
+      },
+      {
+        "image": "bar_03.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 368.50  , "y": 376 }
+      },
+      {
+        "image": "bar_02.png",
+        "type": "barrier",
+        "child":true,
+        "name":"bar_7",
+        "position": {"x": 935.50, "y": 447}
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "ShowedLevel": "1 - E",
+    "balls": 5,
+    "total_balls": 5,
+    "type":"main",
+    "numbers": ["",2,3,5],
+    "items":[
+      {
+        "image": "tri_1.png",
+        "type": "barrier",
+        "child":true,
+        "name":"tri_1",
+        "position": {"x": 257.50 , "y": 303 }
+      },
+      {
+        "image": "tri_01.png",
+        "type": "barrier",
+        "child":true,
+        "name":"tri_01",
+        "position": {"x": 651.50   , "y": 602 }
+      },
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "child":false,
+        "speed": 2,
+        "position": {"x": 758.50, "y": 297.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 635.50   , "y": 130.50  }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 843.50   , "y": 286.50  }
+      },
+      {
+        "image": "bar_03.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 642.50 , "y": 213 }
+      },
+      {
+        "image": "bar_03.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 368.50  , "y": 376 }
+      },{
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 1036.00, "y": 375 }
+      },
+      {
+        "image": "bar_14.png",
+        "type": "pendulum",
+        "anchor": {"x": 1},
+        "rect": {"w": 144, "h": 14, "x": -70, "y": 0},
+        "angles": {"left":90,"right":0},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 0
+        },
+        "position": {"x": 970.00, "y": 375}
+      }
+    ]
+  },
+
+  {
+    "level": 6,
+    "ShowedLevel": "2 - A",
+    "balls": 5,
+    "total_balls": 5,
+    "type":"main",
+    "numbers": ["",3,2,5],
+    "items":[
+      {
+        "image": "bar_15.png",
+        "type": "pendulum",
+        "anchor": {"y": 0.1},
+        "rect": {"w": 15, "h": 132, "x": 0, "y": 50},
+        "angles": {"left":90,"right":0},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 0
+        },
+        "position": {"x": 860, "y": 225 }
+      },
+      {
+        "image": "bar_06.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 302  , "y": 368.50 }
+      },
+      {
+        "image": "gear01.png",
+        "type": "gear",
+        "speed": 2,
+        "child":false,
+        "position": {"x": 397.50, "y": 360.50 }
+      },
+      {
+        "image": "bar_5.png",
+        "type": "barrier",
+        "child":true,
+        "name":"bar_5",
+        "position": {"x": 720, "y": 410 }
+      },
+
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "position": {"x": 860.00 , "y": 130.50 }
+      },
+      {
+        "image": "bar_12.png",
+        "type": "barrier",
+        "child":false,
+        "up_down_motion": {
+          "speed": 100,
+          "y_top": 130.50,
+          "y_bottom": 271.50
+        },
+        "position": {"x": 635.50, "y": 131 }
+      },
+      {
+        "image": "bar_10.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 600, "y": 364}
+      },
+
+      {
+        "image": "tri_1.png",
+        "type": "barrier",
+        "child":true,
+        "name":"tri_1",
+        "position": {"x": 864.50 , "y": 602 }
+      },
+      {
+        "image": "tri_2.png",
+        "type": "barrier",
+        "child":true,
+        "name":"tri_2",
+        "position": {"x": 1014.00  , "y": 446.50  }
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "ShowedLevel":"2 - B",
+    "balls": 6,
+    "total_balls": 6,
+    "type":"main",
+    "numbers": ["",4,6,8],
+    "items":[
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "speed": 2,
+        "position": {"x": 930, "y": 510  }
+      },
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "speed": 2,
+        "position": {"x": 400.50  , "y": 380.50 }
+      },
+      {
+        "image": "bar_0.png",
+        "type": "barrier",
+        "up_down_motion": {
+          "speed": 100,
+          "y_top": 208.00 ,
+          "y_bottom": 523
+        },
+        "position": {"x": 295.00, "y": 391 }
+      },
+      {
+        "image": "bar_03.png",
+        "type": "barrier",
+        "position": {"x": 661.50  , "y": 379 }
+      },
+
+      {
+        "image": "bar_04.png",
+        "type": "barrier",
+        "child": true,
+        "name": "bar_6",
+        "position": {"x":797.50 , "y": 298.00 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "position": {"x": 1036.00, "y": 554 }
+      },
+      {
+        "image": "bar_14.png",
+        "type": "pendulum",
+        "anchor": {"x": 1},
+        "angles": {"left":0,"right":90},
+        "rect": {"w": 144, "h": 14, "x": -70, "y": 0},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 0
+        },
+        "position": {"x": 1096.00  , "y": 198 }
+      },
+      {
+        "image": "tri_5.png",
+        "type": "barrier",
+        "child": true,
+        "name": "tri_5",
+        "destroy_on_collision": false,
+        "position": {"x": 629.00, "y": 328  }
+      },
+      {
+        "image": "tri_3.png",
+        "type": "barrier",
+        "child": true,
+        "name": "tri_3",
+        "destroy_on_collision": false,
+        "position": {"x": 621.00, "y": 113 }
+      }
+
+    ]
+  },
+  {
+    "level": 8,
+    "ShowedLevel":"2 - C",
+    "balls": 5,
+    "other_balls": 2,
+    "total_balls": 7,
+    "type":"main",
+    "numbers": ["",7,5,6],
+    "items":[
+      {
+        "image": "gear01.png",
+        "type": "gear",
+        "speed": 2,
+        "position": {"x": 290.50 , "y": 368.50 }
+      },
+      {
+        "image": "gear01.png",
+        "type": "gear",
+        "speed": 2,
+        "position": {"x": 957.50 , "y": 531.50 }
+      },
+      {
+        "image": "bar_14.png",
+        "type": "barrier",
+        "left_right_motion": {
+          "speed": 100,
+          "x_left": 863.00 ,
+          "x_right": 1034.00
+        },
+        "position": {"x": 1032.00  , "y": 225 }
+      },
+      {
+        "image": "bar_09.png",
+        "type": "pendulum",
+        "anchor": {"y": 0.1},
+        "rect": {"w": 14, "h": 165, "x": 0, "y": 70},
+        "angles": {"left":90,"right":0},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 90
+        },
+        "position": {"x": 860.00 , "y": 50.50 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "position": {"x":622.00  , "y": 208 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "position": {"x":452.00 , "y": 364 }
+      },
+      {
+        "image": "tri_2.png",
+        "type": "barrier",
+        "child": true,
+        "name": "tri_2",
+        "position": {"x": 400, "y": 104.50 }
+      },
+      {
+        "image": "tri_01.png",
+        "type": "barrier",
+        "child": true,
+        "name": "tri_01",
+        "position": {"x": 722.50 , "y": 291  }
+      },
+      {
+        "image": "tri_01.png",
+        "type": "barrier",
+        "child": true,
+        "name": "tri_01",
+        "position": {"x": 588.50  , "y": 602  }
+      }
+
+    ]
+  },
+  {
+    "level": 9,
+    "ShowedLevel":"2 - D",
+    "balls": 5,
+    "other_balls": 3,
+    "total_balls": 8,
+    "type":"main",
+    "numbers": ["",7,4,8],
+    "items":[
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "speed": 2,
+        "child": false,
+        "position": {"x": 881.50  , "y": 534.50 }
+      },
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "speed": 2,
+        "child": false,
+        "position": {"x": 354.50, "y": 128.50 }
+      },
+      {
+        "image": "bar_14.png",
+        "type": "pendulum",
+        "anchor": {"x": 1},
+        "angles": {"left":90,"right":0},
+        "rect": {"w": 114, "h": 14, "x": -90, "y": 0},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 0
+        },
+        "position": {"x":512 , "y": 376.00  }
+      },
+      {
+        "image": "bar_14.png",
+        "type": "pendulum",
+        "anchor": {"x": 1},
+        "angles": {"left":0,"right":90},
+        "rect": {"w": 144, "h": 14, "x": -70, "y": 0},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 0
+        },
+        "position": {"x": 1096.00  , "y": 198 }
+      },
+      {
+        "image": "bar_08.png",
+        "type": "barrier",
+        "left_right_motion": {
+          "speed": 100,
+          "x_left": 803.50,
+          "x_right": 959.50
+        },
+        "position": {"x":959, "y": 386 }
+      },
+      {
+        "image": "bar_06.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":648.00, "y": 368.50 }
+      },
+      {
+        "image": "bar_06.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":818.00 , "y": 213.50 }
+      },
+      {
+        "image": "bar_06.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":512.00 , "y": 213.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":298.00, "y": 442.50 }
+      },
+      {
+        "image": "bar_08.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 312.50, "y": 534 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 724.00 , "y": 534 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 1036.00, "y": 534 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 410.00, "y": 213 }
+      },
+      {
+        "image": "tri_1.png",
+        "type": "barrier",
+        "child": true,
+        "name": "tri_1",
+        "position": {"x": 516.50 , "y": 613 }
+      },
+      {
+        "image": "tri_1.png",
+        "type": "barrier",
+        "child": true,
+        "name": "tri_1",
+        "position": {"x": 228.50, "y": 459.50 }
+      }
+    ]
+  },
+  {
+    "level": 10,
+    "ShowedLevel":"2 - E",
+    "balls": 5,
+    "other_balls": 4,
+    "total_balls": 9,
+    "type":"main",
+    "numbers": ["",7,9,6],
+    "items":[
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "speed": 2,
+        "child": false,
+        "position": {"x": 1034.50 , "y": 382.50 }
+      },
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "speed": 2,
+        "child": false,
+        "position": {"x": 255.50  , "y": 531.50 }
+      },
+      {
+        "image": "bar_09.png",
+        "type": "pendulum",
+        "anchor": {"y": 1},
+        "rect": {"w": 14, "h": 165, "x": 0, "y": -80},
+        "angles": {"left":0,"right":90},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 90
+        },
+        "position": {"x": 885 , "y": 210 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":886.00 , "y": 290.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":500, "y": 594.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 750, "y": 127.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 397.00 , "y": 441.50 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 398.00 , "y": 366 }
+      },
+      {
+        "image": "bar_13.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 450 , "y": 203 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 690 , "y": 203 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 247.00 , "y": 203 }
+      },
+      {
+        "image": "bar_02.png",
+        "type": "barrier",
+        "child": true,
+        "name": "bar_7",
+        "position": {"x": 550.50, "y": 128 }
+      },
+      {
+        "image": "bar_02.png",
+        "type": "barrier",
+        "child": true,
+        "name": "bar_7",
+        "position": {"x": 835, "y": 444 }
+      },
+      {
+        "image": "bar_14.png",
+        "type": "barrier",
+        "child": false,
+        "left_right_motion": {
+          "speed": 100,
+          "x_left": 542.00 ,
+          "x_right": 765.00
+        },
+        "position": {"x": 542.50 , "y": 369 }
+      },
+      {
+        "image": "tri_2.png",
+        "type": "barrier",
+        "child": true,
+        "name": "tri_2",
+        "position": {"x": 700 , "y": 271  }
+      },
+      {
+        "image": "tri_1.png",
+        "type": "barrier",
+        "child": true,
+        "name": "tri_1",
+        "position": {"x": 630 , "y": 610  }
+      }
+    ]
+  },
+  {
+    "level": 11,
+    "ShowedLevel":"2 - F",
+    "balls": 5,
+    "other_balls": 5,
+    "total_balls": 10,
+    "type":"main",
+    "numbers": ["",10,7,6],
+    "items":[
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "speed": 2,
+        "child": false,
+        "position": {"x": 843.50 , "y": 219.50 }
+      },
+      {
+        "image": "bar_13.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 435  , "y": 203 }
+      },
+      {
+        "image": "bar_07.png",
+        "type": "pendulum",
+        "anchor": {"y": 1},
+        "angles": {"left":0,"right":90},
+        "rect": {"w": 14, "h": 156, "x": 0, "y": -70},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 0
+        },
+        "position": {"x":476.00 , "y": 206 }
+      },
+      {
+        "image": "bar_06.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":931.00, "y": 212.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":478.00 , "y": 286.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":652.00 , "y": 597.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":751.00 , "y": 442.50  }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":755.00 , "y": 130.50 }
+      },
+      {
+        "image": "bar_14.png",
+        "type": "barrier",
+        "child": false,
+        "left_right_motion": {
+          "speed": 100,
+          "x_left": 843,
+          "x_right": 1022
+        },
+        "position": {"x": 934.00   , "y": 383 }
+      },
+
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 247.00 , "y": 203 }
+      },
+      {
+        "image": "tri_1.png",
+        "type": "barrier",
+        "child": true,
+        "name": "tri_1",
+        "position": {"x": 658.50  , "y": 447 }
+      },
+      {
+        "image": "tri_6.png",
+        "type": "barrier",
+        "child": true,
+        "name": "tri_6",
+        "position": {"x": 449.50 , "y": 403  }
+      },
+      {
+        "image": "tri_4.png",
+        "type": "barrier",
+        "child": true,
+        "name": "tri_4",
+        "position": {"x": 237.00 , "y": 424  }
+      }
+    ]
+  },
+
+  {
+    "level": 12,
+    "ShowedLevel": "3 - A",
+    "balls": 5,
+    "total_balls": 5,
+    "type":"main",
+    "numbers": ["",2,3,5],
+    "items":[
+      {
+        "image": "bar_15.png",
+        "type": "pendulum",
+        "anchor": {"y": 0.1},
+        "rect": {"w": 15, "h": 132, "x": 0, "y": 50},
+        "angles": {"left":90,"right":0},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 0
+        },
+        "position": {"x": 860, "y": 225 }
+      },
+      {
+        "image": "bar_06.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 302  , "y": 368.50 }
+      },
+      {
+        "image": "gear01.png",
+        "type": "gear",
+        "speed": 2,
+        "child":false,
+        "position": {"x": 397.50, "y": 360.50 }
+      },
+      {
+        "image": "bar_5.png",
+        "type": "barrier",
+        "child":true,
+        "name":"bar_5",
+        "position": {"x": 720, "y": 410 }
+      },
+
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "position": {"x": 860.00 , "y": 130.50 }
+      },
+      {
+        "image": "bar_12.png",
+        "type": "barrier",
+        "child":false,
+        "up_down_motion": {
+          "speed": 100,
+          "y_top": 130.50,
+          "y_bottom": 271.50
+        },
+        "position": {"x": 635.50, "y": 131 }
+      },
+      {
+        "image": "bar_10.png",
+        "type": "barrier",
+        "child":false,
+        "position": {"x": 600, "y": 364}
+      },
+
+      {
+        "image": "r_tri_1.png",
+        "type": "barrier",
+        "child":true,
+        "name":"r_tri_1",
+        "destroy_on_collision": true,
+        "position": {"x": 864.50 , "y": 602 }
+      },
+      {
+        "image": "r_tri_2.png",
+        "type": "barrier",
+        "child":true,
+        "name":"r_tri_2",
+        "destroy_on_collision": true,
+        "position": {"x": 1014.00  , "y": 446.50  }
+      }
+    ]
+  },
+  {
+    "level": 13,
+    "ShowedLevel":"3 - B",
+    "balls": 6,
+    "total_balls": 6,
+    "type":"main",
+    "numbers": ["",4,6,8],
+    "items":[
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "speed": 2,
+        "position": {"x": 930, "y": 510  }
+      },
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "speed": 2,
+        "position": {"x": 400.50  , "y": 380.50 }
+      },
+      {
+        "image": "bar_0.png",
+        "type": "barrier",
+        "up_down_motion": {
+          "speed": 100,
+          "y_top": 208.00 ,
+          "y_bottom": 523
+        },
+        "position": {"x": 295.00, "y": 391 }
+      },
+      {
+        "image": "bar_03.png",
+        "type": "barrier",
+        "position": {"x": 661.50  , "y": 379 }
+      },
+
+      {
+        "image": "bar_04.png",
+        "type": "barrier",
+        "child": true,
+        "name": "bar_6",
+        "position": {"x":797.50 , "y": 298.00 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "position": {"x": 1036.00, "y": 554 }
+      },
+      {
+        "image": "bar_14.png",
+        "type": "pendulum",
+        "anchor": {"x": 1},
+        "angles": {"left":0,"right":90},
+        "rect": {"w": 144, "h": 14, "x": -70, "y": 0},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 0
+        },
+        "position": {"x": 1096.00  , "y": 198 }
+      },
+      {
+        "image": "r_tri_5.png",
+        "type": "barrier",
+        "child": true,
+        "name": "r_tri_5",
+        "destroy_on_collision": true,
+        "position": {"x": 629.00, "y": 328  }
+      },
+      {
+        "image": "r_tri_3.png",
+        "type": "barrier",
+        "child": true,
+        "name": "r_tri_3",
+        "destroy_on_collision": true,
+        "position": {"x": 621.00, "y": 113 }
+      }
+
+    ]
+  },
+  {
+    "level": 14,
+    "ShowedLevel":"3 - C",
+    "balls": 5,
+    "other_balls": 2,
+    "total_balls": 7,
+    "type":"main",
+    "numbers": ["",7,5,6],
+    "items":[
+      {
+        "image": "gear01.png",
+        "type": "gear",
+        "speed": 2,
+        "position": {"x": 290.50 , "y": 368.50 }
+      },
+      {
+        "image": "gear01.png",
+        "type": "gear",
+        "speed": 2,
+        "position": {"x": 957.50 , "y": 531.50 }
+      },
+      {
+        "image": "bar_14.png",
+        "type": "barrier",
+        "left_right_motion": {
+          "speed": 100,
+          "x_left": 863.00 ,
+          "x_right": 1034.00
+        },
+        "position": {"x": 1032.00  , "y": 225 }
+      },
+      {
+        "image": "bar_09.png",
+        "type": "pendulum",
+        "anchor": {"y": 0.1},
+        "rect": {"w": 14, "h": 165, "x": 0, "y": 70},
+        "angles": {"left":90,"right":0},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 90
+        },
+        "position": {"x": 860.00 , "y": 50.50 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "position": {"x":622.00  , "y": 208 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "position": {"x":452.00 , "y": 364 }
+      },
+      {
+        "image": "r_tri_2.png",
+        "type": "barrier",
+        "child": true,
+        "name": "r_tri_2",
+        "destroy_on_collision": true,
+        "position": {"x": 400, "y": 104.50 }
+      },
+      {
+        "image": "r_tri_01.png",
+        "type": "barrier",
+        "child": true,
+        "name": "r_tri_01",
+        "destroy_on_collision": true,
+        "position": {"x": 722.50 , "y": 291  }
+      },
+      {
+        "image": "r_tri_01.png",
+        "type": "barrier",
+        "child": true,
+        "name": "r_tri_01",
+        "destroy_on_collision": true,
+        "position": {"x": 588.50  , "y": 602  }
+      }
+
+    ]
+  },
+  {
+    "level": 15,
+    "ShowedLevel":"3 - D",
+    "balls": 5,
+    "other_balls": 3,
+    "total_balls": 8,
+    "type":"main",
+    "numbers": ["",7,9,6],
+    "items":[
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "speed": 2,
+        "child": false,
+        "position": {"x": 881.50  , "y": 534.50 }
+      },
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "speed": 2,
+        "child": false,
+        "position": {"x": 354.50, "y": 128.50 }
+      },
+      {
+        "image": "bar_14.png",
+        "type": "pendulum",
+        "anchor": {"x": 1},
+        "angles": {"left":90,"right":0},
+        "rect": {"w": 114, "h": 14, "x": -90, "y": 0},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 0
+        },
+        "position": {"x":512 , "y": 376.00  }
+      },
+      {
+        "image": "bar_14.png",
+        "type": "pendulum",
+        "anchor": {"x": 1},
+        "angles": {"left":0,"right":90},
+        "rect": {"w": 144, "h": 14, "x": -70, "y": 0},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 0
+        },
+        "position": {"x": 1096.00  , "y": 198 }
+      },
+      {
+        "image": "bar_08.png",
+        "type": "barrier",
+        "left_right_motion": {
+          "speed": 100,
+          "x_left": 803.50,
+          "x_right": 959.50
+        },
+        "position": {"x":959, "y": 386 }
+      },
+      {
+        "image": "bar_06.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":648.00, "y": 368.50 }
+      },
+      {
+        "image": "bar_06.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":818.00 , "y": 213.50 }
+      },
+      {
+        "image": "bar_06.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":512.00 , "y": 213.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":298.00, "y": 442.50 }
+      },
+      {
+        "image": "bar_08.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 312.50, "y": 534 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 724.00 , "y": 534 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 1036.00, "y": 534 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 410.00, "y": 213 }
+      },
+      {
+        "image": "r_tri_1.png",
+        "type": "barrier",
+        "child": true,
+        "name": "r_tri_1",
+        "destroy_on_collision": true,
+        "position": {"x": 516.50 , "y": 613 }
+      },
+      {
+        "image": "r_tri_1.png",
+        "type": "barrier",
+        "child": true,
+        "name": "r_tri_1",
+        "destroy_on_collision": true,
+        "position": {"x": 228.50, "y": 459.50 }
+      }
+    ]
+  },
+  {
+    "level": 16,
+    "ShowedLevel":"3 - E",
+    "balls": 5,
+    "other_balls": 4,
+    "total_balls": 9,
+    "type":"main",
+    "numbers": ["",7,4,8],
+    "items":[
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "speed": 2,
+        "child": false,
+        "position": {"x": 1034.50 , "y": 382.50 }
+      },
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "speed": 2,
+        "child": false,
+        "position": {"x": 255.50  , "y": 531.50 }
+      },
+      {
+        "image": "bar_09.png",
+        "type": "pendulum",
+        "anchor": {"y": 1},
+        "rect": {"w": 14, "h": 165, "x": 0, "y": -80},
+        "angles": {"left":0,"right":90},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 90
+        },
+        "position": {"x": 885 , "y": 210 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":886.00 , "y": 290.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":500, "y": 594.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 750, "y": 127.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 397.00 , "y": 441.50 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 398.00 , "y": 366 }
+      },
+      {
+        "image": "bar_13.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 450 , "y": 203 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 690 , "y": 203 }
+      },
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 247.00 , "y": 203 }
+      },
+      {
+        "image": "bar_02.png",
+        "type": "barrier",
+        "child": true,
+        "name": "bar_7",
+        "position": {"x": 550.50, "y": 128 }
+      },
+      {
+        "image": "bar_02.png",
+        "type": "barrier",
+        "child": true,
+        "name": "bar_7",
+        "position": {"x": 835, "y": 444 }
+      },
+      {
+        "image": "bar_14.png",
+        "type": "barrier",
+        "child": false,
+        "left_right_motion": {
+          "speed": 100,
+          "x_left": 542.00 ,
+          "x_right": 765.00
+        },
+        "position": {"x": 542.50 , "y": 369 }
+      },
+      {
+        "image": "r_tri_2.png",
+        "type": "barrier",
+        "child": true,
+        "name": "r_tri_2",
+        "destroy_on_collision": true,
+        "position": {"x": 700 , "y": 271  }
+      },
+      {
+        "image": "r_tri_1.png",
+        "type": "barrier",
+        "child": true,
+        "name": "r_tri_1",
+        "destroy_on_collision": true,
+        "position": {"x": 630 , "y": 610  }
+      }
+    ]
+  },
+  {
+    "level": 17,
+    "ShowedLevel":"3 - F",
+    "balls": 5,
+    "other_balls": 5,
+    "total_balls": 10,
+    "type":"main",
+    "numbers": ["",10,2,6],
+    "items":[
+      {
+        "image": "gear3.png",
+        "type": "gear",
+        "speed": 2,
+        "child": false,
+        "position": {"x": 843.50 , "y": 219.50 }
+      },
+      {
+        "image": "bar_13.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 435  , "y": 203 }
+      },
+      {
+        "image": "bar_07.png",
+        "type": "pendulum",
+        "anchor": {"y": 1},
+        "angles": {"left":0,"right":90},
+        "rect": {"w": 14, "h": 156, "x": 0, "y": -70},
+        "swing_motion": {
+          "speed": 15,
+          "angle": 0
+        },
+        "position": {"x":476.00 , "y": 206 }
+      },
+      {
+        "image": "bar_06.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":931.00, "y": 212.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":478.00 , "y": 286.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":652.00 , "y": 597.50 }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":751.00 , "y": 442.50  }
+      },
+      {
+        "image": "bar_01.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x":755.00 , "y": 130.50 }
+      },
+      {
+        "image": "bar_14.png",
+        "type": "barrier",
+        "child": false,
+        "left_right_motion": {
+          "speed": 100,
+          "x_left": 843,
+          "x_right": 1022
+        },
+        "position": {"x": 934.00   , "y": 383 }
+      },
+
+      {
+        "image": "bar_05.png",
+        "type": "barrier",
+        "child": false,
+        "position": {"x": 247.00 , "y": 203 }
+      },
+      {
+        "image": "r_tri_1.png",
+        "type": "barrier",
+        "child": true,
+        "name": "r_tri_1",
+        "destroy_on_collision": true,
+        "position": {"x": 658.50  , "y": 447 }
+      },
+      {
+        "image": "r_tri_6.png",
+        "type": "barrier",
+        "child": true,
+        "name": "r_tri_6",
+        "destroy_on_collision": true,
+        "position": {"x": 449.50 , "y": 403  }
+      },
+      {
+        "image": "r_tri_4.png",
+        "type": "barrier",
+        "child": true,
+        "name": "r_tri_4",
+        "destroy_on_collision": true,
+        "position": {"x": 237.00 , "y": 424  }
+      }
+    ]
+  }
+]

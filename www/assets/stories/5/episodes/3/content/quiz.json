@@ -1,0 +1,591 @@
+{
+	"quiz_1": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "1. Persons infected with HIV may have no symptoms for ten or more years.",
+				"text_style": { "font": "20pt Arial", "fill": "white", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 100}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. True",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. False",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+					
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x250E00",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 80},
+				"width": 450,
+				"height": 500 
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 480}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "2. An HIV anti-body test is the only way to find out if you have HIV. ",
+				"text_style": { "font": "20pt Arial", "fill": "white", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 100}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. True",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. False",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+					
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x250E00",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 80},
+				"width": 450,
+				"height": 500 
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 480}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "3. Babies can potentially become infected during their mothers’ pregnancy, during delivery, or after birth in the immediate post-partum period. ",
+				"text_style": { "font": "20pt Arial", "fill": "white", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 100}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. True",
+						"position": {"x": 450, "y": 320},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. False",
+						"position": {"x": 450, "y": 390},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+					
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x250E00",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 80},
+				"width": 450,
+				"height": 500 
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 480}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "4. There is no cure for HIV or AIDS.",
+				"text_style": { "font": "20pt Arial", "fill": "white", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 100}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A.True",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. False",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+					
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x250E00",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 80},
+				"width": 450,
+				"height": 500 
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 608, "y": 480}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "5. HIV is spread through saliva. ",
+				"text_style": { "font": "20pt Arial", "fill": "white", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 100}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. True",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. False",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x250E00",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 80},
+				"width": 450,
+				"height": 500 
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 480}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "6.HIV is passed through casual contact or by being near a person who is infected.",
+				"text_style": { "font": "20pt Arial", "fill": "white", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 100}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black"  },				
+				"texts": [
+					{
+						"text": "A. True",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. False",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x250E00",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 80},
+				"width": 450,
+				"height": 500 
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 608, "y": 480}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "7. A person with HIV who is not sick or who has no symptoms can pass HIV to someone else.",
+				"text_style": { "font": "20pt Arial", "fill": "white", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 100}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. True",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. False",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x250E00",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 80},
+				"width": 450,
+				"height": 500 
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 480}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "8. I can get HIV from kissing?",
+				"text_style": { "font": "20pt Arial", "fill": "white", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 100}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. True",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. False",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x250E00",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 80},
+				"width": 450,
+				"height": 500 
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 608, "y": 480}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "9. I can  get HIV from a mosquito bite.",
+				"text_style": { "font": "20pt Arial", "fill": "white", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 100}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. True",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. False",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x250E00",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 80},
+				"width": 450,
+				"height": 500 
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 608, "y": 480}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "10. HIV can be passed through food, water, or the air.",
+				"text_style": { "font": "20pt Arial", "fill": "white", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 100}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. True",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. False",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x250E00",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 80},
+				"width": 450,
+				"height": 500 
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 480}
+			}
+		}
+	],
+	"difficult": [
+		
+	]
+}

@@ -1,0 +1,464 @@
+{
+    "component": [
+        {
+            "image": "../../../../../../../img/bg.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "image": "../../../../../../../img/sun_overlay.png",
+            "type": "image",
+            "position": {
+                "x": -350,
+                "y": -350
+            },
+            "width": 1920,
+            "height": 1920,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "angle": 360 },
+                    "duration": 30000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../../../../../../../img/cloud.png",
+            "type": "image",
+            "position": {
+                "x": -1000,
+                "y": 60
+            },
+            "width": 255,
+            "height": 164,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1380 },
+                    "duration": 50000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../../../../../../../img/cloud.png",
+            "type": "image",
+            "position": {
+                "x": -500,
+                "y": 0
+            },
+            "width": 255,
+            "height": 164,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1380 },
+                    "duration": 40000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../../../../../../../img/cloud_1.png",
+            "type": "image",
+            "position": {
+                "x": -300,
+                "y": 60
+            },
+            "width": 346,
+            "height": 203,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1420 },
+                    "duration": 30000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../../../../../../../img/cloud_1.png",
+            "type": "image",
+            "position": {
+                "x": -900,
+                "y": 0
+            },
+            "width": 346,
+            "height": 203,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1420 },
+                    "duration": 50000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../../../../../../../img/fg.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "image": "../../../../../../../img/mid_ground_1.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "shape": "rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 720
+            },
+            "width": 1280,
+            "height": 720,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "duration": 500,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../../../../../../../img/instructions.png",
+            "type": "image",
+            "scale": 1.2,
+            "position": {
+                "x": -500,
+                "y": 40
+            },
+            "width": 850,
+            "height": 565,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 650
+                    },
+                    "duration": 300,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../../../../../../../img/sprite-boy.png",
+            "type": "spritesheet",
+            "frame_width": 545,
+            "frame_height": 993,
+            "width": 319,
+            "height": 525,
+            "scale": 0.5,
+            "start_pos": 0,
+            "stop_pos": 1,
+            "frames_1": [
+                0,0,0,0,0,0,0,
+                0,0,0,0,0,0,0,
+                0,1,2,3,0,0,0,
+                0,0,0,0,0,0,0,
+                0,0,0,0,0,0,0,
+                0,0,0,0,0,0,0
+            ],
+            "start": "auto",
+            "anim_name": "blink",
+            "fps": 10,
+            "loop": -1,
+            "position": {
+                "x": 30,
+                "y": 200
+            },
+            "bringToTop":true
+        },
+        {
+            "name": "title",
+            "type": "text",
+            "text": "Using the trampoline to move up or side to side, tap on the correct colour of the floating balloon announced. \n^ Use this button to jump up \n< > Use this button to move side to side",
+            "style": {
+                "font": "23pt Titan One",
+                "fill": "white",
+                "align": "left",
+                "wordWrap": true,
+                "wordWrapWidth": 550
+            },
+            "position": {
+                "x": 360,
+                "y": 200
+            }
+        },
+        {
+            "type": "image",
+            "interactivity": {
+                "action": "click",
+                "back": true
+            },
+            "image": "../../../../../../../img/back.png",
+            "position": {
+                "x": 20,
+                "y": 20
+            }
+        }
+    ],
+    "congrats": [
+        {
+            "image": "../../../../../../../img/bg.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "image": "../../../../../../../img/sun_overlay.png",
+            "type": "image",
+            "position": {
+                "x": -350,
+                "y": -350
+            },
+            "width": 1920,
+            "height": 1920,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "angle": 360 },
+                    "duration": 30000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../../../../../../../img/cloud.png",
+            "type": "image",
+            "position": {
+                "x": -1000,
+                "y": 60
+            },
+            "width": 255,
+            "height": 164,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1380 },
+                    "duration": 50000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../../../../../../../img/cloud.png",
+            "type": "image",
+            "position": {
+                "x": -500,
+                "y": 0
+            },
+            "width": 255,
+            "height": 164,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1380 },
+                    "duration": 40000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../../../../../../../img/cloud_1.png",
+            "type": "image",
+            "position": {
+                "x": -300,
+                "y": 60
+            },
+            "width": 346,
+            "height": 203,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1420 },
+                    "duration": 30000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../../../../../../../img/cloud_1.png",
+            "type": "image",
+            "position": {
+                "x": -900,
+                "y": 0
+            },
+            "width": 346,
+            "height": 203,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1420 },
+                    "duration": 50000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../../../../../../../img/fg.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "image": "../../../../../../../img/mid_ground_1.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "shape": "rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 720
+            },
+            "width": 1280,
+            "height": 720,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "duration": 500,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../../../../../../../img/congratulation.png",
+            "type": "image",
+            "scale": 1.2,
+            "position": {
+                "x": -500,
+                "y": 40
+            },
+            "width": 850,
+            "height": 565,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 650
+                    },
+                    "duration": 300,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../../../../../../../img/sprite-boy.png",
+            "type": "spritesheet",
+            "frame_width": 545,
+            "frame_height": 993,
+            "width": 319,
+            "height": 525,
+            "scale": 0.5,
+            "start_pos": 0,
+            "stop_pos": 1,
+            "frames_1": [
+                0,0,0,0,0,0,0,
+                0,0,0,0,0,0,0,
+                0,1,2,3,0,0,0,
+                0,0,0,0,0,0,0,
+                0,0,0,0,0,0,0,
+                0,0,0,0,0,0,0
+            ],
+            "start": "auto",
+            "anim_name": "blink",
+            "fps": 10,
+            "loop": -1,
+            "position": {
+                "x": 30,
+                "y": 200
+            },
+            "bringToTop":true
+        },
+        {
+            "name": "title",
+            "type": "text",
+            "text": "Great!",
+            "style": {
+                "font": "23pt Titan One",
+                "fill": "white",
+                "align": "left",
+                "wordWrap": true,
+                "wordWrapWidth": 550
+            },
+            "position": {
+                "x": 360,
+                "y": 200
+            }
+        }
+    ]
+}

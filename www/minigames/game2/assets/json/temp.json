@@ -1,0 +1,184 @@
+
+[{
+  "ShowedLevel": "1 - B",
+  "level": 2,
+  "step": 1,
+  "num": 1,
+  "step_interval": 30,
+  "dock": {
+    "position": {"x": 42, "y": 270},
+    "width": 610,
+    "height": 220,
+    "color": "0x4d4d4d",
+    "alpha": 0.7
+  },
+  "main_image": [
+    {
+      "image": "silo2.png",
+      "position": {"x": 361, "y": 948}
+    }
+  ],
+  "slot_items": [
+    {
+      "image": "triangle2.png",
+      "begin_position": {"x": 118.50, "y": 433},
+      "active": false,
+      "end_position": {"x":0,"y":0},
+      "disable_rotation":  true,
+      "begin_rotation": 0,
+      "end_rotation": 0,
+      "sound": "triangle.mp3"
+    },
+    {
+      "image": "rectangle2.png",
+      "begin_position": {"x": 264, "y": 465},
+      "active": false,
+      "end_position": {"x":0,"y":0},
+      "disable_rotation":  true,
+      "begin_rotation": 0,
+      "end_rotation": 0,
+      "sound": "rectangle.mp3"
+    },
+    {
+      "image": "circle2.png",
+      "begin_position": {"x": 413.50, "y": 410},
+      "end_position": {"x": 360.50, "y": 754},
+      "disable_rotation":  true,
+      "begin_rotation": 0,
+      "end_rotation": 0,
+      "sound": "circle.mp3"
+    },
+    {
+      "image": "square2.png",
+      "begin_position": {"x": 578.50, "y": 425},
+      "active": false,
+      "end_position": {"x":0,"y":0},
+      "disable_rotation":  true,
+      "begin_rotation": 0,
+      "end_rotation": 0,
+      "sound": "square.mp3"
+    }
+  ]
+},
+  {
+    "ShowedLevel": "1 - D",
+    "level": 4,
+    "step": 1,
+    "num": 1,
+    "step_interval": 30,
+    "dock": {
+    "position": {"x": 42, "y": 270},
+    "width": 610,
+    "height": 220,
+    "color": "0x4d4d4d",
+    "alpha": 0.7
+    },
+    "main_image": [
+    {
+    "image": "silo4.png",
+    "position": {"x": 359.50, "y": 938.50}
+    }
+    ],
+    "slot_items": [
+    {
+    "image": "rectangle4.png",
+    "begin_position": {"x": 378, "y": 465},
+    "active": false,
+    "end_position": {"x":0,"y":0},
+    "disable_rotation":  true,
+    "begin_rotation": 0,
+    "end_rotation": 0,
+    "sound": "rectangle.mp3"
+    },
+    {
+    "image": "rectangle_4.png",
+    "begin_position": {"x": 185, "y": 455},
+    "end_position": {"x": 360, "y": 1179.50},
+    "disable_rotation":  false,
+    "begin_rotation": 0,
+    "end_rotation": 0,
+    "sound": "rectangle.mp3"
+    },
+    {
+    "image": "circle4.png",
+    "begin_position": {"x": 466, "y": 450},
+    "active": false,
+    "end_position": {"x":0,"y":0},
+    "disable_rotation":  true,
+    "begin_rotation": 0,
+    "end_rotation": 0,
+    "sound": "circle.mp3"
+    },
+    {
+    "image": "square4.png",
+    "begin_position": {"x": 596, "y": 430},
+    "active": false,
+    "end_position": {"x":0,"y":0},
+    "disable_rotation":  true,
+    "begin_rotation": 0,
+    "end_rotation": 0,
+    "sound": "square.mp3"
+    }
+    ]
+  },
+  {
+    "ShowedLevel": "1 - E",
+    "level": 5,
+    "step": 1,
+    "num": 2,
+    "step_interval": 30,
+    "dock": {
+      "position": {"x": 42, "y": 270},
+      "width": 610,
+      "height": 220,
+      "color": "0x4d4d4d",
+      "alpha": 0.7
+    },
+    "main_image": [
+      {
+        "image": "silo5.png",
+        "position": {"x": 344.50, "y": 1065.50}
+      }
+    ],
+    "slot_items": [
+      {
+        "image": "triangle5.png",
+        "begin_position": {"x": 343.50, "y": 420},
+        "active": false,
+        "end_position": {"x":0,"y":0},
+        "disable_rotation":  true,
+        "begin_rotation": 0,
+        "end_rotation": 0,
+        "sound": "triangle.mp3"
+      },
+      {
+        "image": "rectangle5.png",
+        "begin_position": {"x": 158, "y": 453},
+        "active": false,
+        "end_position": {"x":0,"y":0},
+        "disable_rotation":  true,
+        "begin_rotation": 0,
+        "end_rotation": 0,
+        "sound": "rectangle.mp3"
+      },
+      {
+        "image": "circle5.png",
+        "begin_position": {"x": 469.00, "y": 440},
+        "end_position": {"x": 495, "y": 945},
+        "disable_rotation":  true,
+        "begin_rotation": 0,
+        "end_rotation": 0,
+        "sound": "circle.mp3"
+      },
+      {
+        "image": "square5.png",
+        "begin_position": {"x": 581, "y": 430},
+        "end_position": {"x": 193, "y": 1060.50},
+        "disable_rotation":  true,
+        "begin_rotation": 0,
+        "end_rotation": 0,
+        "sound": "square.mp3"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1085 @@
+{	
+	"badge_dialog_styles": {
+		"style_1": {
+			"animation": { "type": "slideUp", "duration": 500, "delay": 1000},
+            "background": "modalbg.png",
+            "bg_scale": 1.34,
+            "bg_offset": {"x": 0, "y": 0},
+            "title": {
+                "text": "EARNED A BADGE!",
+                "type": "text",
+                "image": "close.png",
+                "image_scale": 1,
+                "text_style": {
+                    "fontSize": 30, 
+                    "fontFamily": "Forte", 
+                    "bold": true, 
+                    "color": "0xffffff", 
+                    "stroke": "0xffffff", 
+                    "strokeThickness": 0
+                },
+                "offset": {"x": 20, "y": -185}
+            },                
+            "image_offset": {"x": 0, "y": -40},
+            "image_scale": 0.4,
+            "name_offset": {"x": 0, "y": 80},
+            "name_style": {
+                "fontSize": 30,
+                "fontFamily": "Arial Black",
+                "bold": true,
+                "color": "0xffffff",                    
+                "stroke": "0xffffff",
+                "strokeThickness": 1
+            },
+            "message_offset": {"x": 5, "y": 160},
+            "message_style": {
+                "fontSize": 22,
+                "fontFamily": "Arial Black",
+                "wordWrap": true,
+                "wordWrapWidth": 550,
+                "bold": true,
+                "color": "0xffffff"
+            },
+            "close_button": {
+                "type": "image",
+                "hidden": true,
+                "image": "close.png",   
+                "image_scale": 0.33,
+                "text": "X",
+                "text_style": {
+                    "fontSize": 60,
+                    "fontFamily": "Forte",
+                    "bold": true,
+                    "color": "0xFEFF49",                    
+                    "stroke": "0x000000",
+                    "strokeThickness": 1
+                },
+                "offset": {"x": 320, "y": -180}
+            }
+		},
+		"style_2": {
+			"animation": { "type": "slideUp", "duration": 500, 
+				"delay": 1000},
+            "background": "modalbgnew.png",
+            "bg_scale": 1.8,
+            "bg_offset": {"x": 0, "y": 0},
+            "title": {
+                "text": "EARNED A BADGE!",
+                "type": "text",
+                "image": "close.png",
+                "image_scale": 1,
+                "text_style": {
+                    "fontSize": 30, 
+                    "fontFamily": "Forte", 
+                    "bold": true, 
+                    "color": "0xffffff", 
+                    "stroke": "0xffffff", 
+                    "strokeThickness": 0
+                },
+                "offset": {"x": 20, "y": -250}
+            },                
+            "image_offset": {"x": 0, "y": -100},
+            "image_scale": 0.4,
+            "name_offset": {"x": 0, "y": 50},
+            "name_style": {
+                "fontSize": 30,
+                "fontFamily": "Arial Black",
+                "bold": true,
+                "color": "0xffffff",                    
+                "stroke": "0xffffff",
+                "strokeThickness": 1
+            },
+            "message_offset": {"x": 5, "y": 160},
+            "message_style": {
+                "fontSize": 22,
+                "fontFamily": "Arial Black",
+                "wordWrap": true,
+                "wordWrapWidth": 550,
+                "bold": true,
+                "color": "0xffffff"
+            },
+            "close_button": {
+                "type": "image",
+                "hidden": true,
+                "image": "close.png",   
+                "image_scale": 0.33,
+                "text": "X",
+                "text_style": {
+                    "fontSize": 60,
+                    "fontFamily": "Forte",
+                    "bold": true,
+                    "color": "0xFEFF49",                    
+                    "stroke": "0x000000",
+                    "strokeThickness": 1
+                },
+                "offset": {"x": 320, "y": -180}
+            }
+		}
+
+	},
+	"hud": {
+		"visible": false,
+		"position": {"x": 10, "y": 3},
+		"width": 500, "height": 100,
+		"label_style": {"font": "bold 28px Arial black", "stroke": "#fdc70a", "strokeThickness": 3, "fill": "#000000"},
+		"text_style": {"font": "bold 28px Arial black", "stroke": "#ffffff", "strokeThickness": 3, "fill": "#000000"}
+	},
+	"title": {
+		"background": "",
+		"audio": "",
+		"cover": {
+			"alpha":1,
+			"position_x": 450,
+			"position_y": 370,
+			"cover_width": 350,
+		    "cover_height": 270
+		},
+		"name_icon": {
+			"alpha":1,
+			"position_x": 0,
+			"position_y": 150,
+			"cover_width": 350,
+			"cover_height": 270
+		},
+		"name": {
+			"alpha": 0,
+			"position_x": 250,
+			"position_y": 235
+		},
+		"play": {
+			"alpha": 1,
+			"position_x": 300,
+			"position_y": 900
+		},
+		"description": {
+			"alpha": 0,
+			"position_x": 419,
+			"position_y": 300
+		},
+		"home_button": {
+			"image": "back.png",
+			"position": {"x": 20, "y": 20},
+			"width": 96, "height": 96
+		},
+		"delete_button": {
+			"image": "trash.png",
+			"position": {"x": 1164, "y": 20},
+			"width": 96, "height": 96
+		},
+		"previous_button": {
+			"image": "blank.png",
+			"position": {"x": 23000, "y": 530},
+			"width": 96, "height": 96
+		},
+		"read_button": {
+			"type": "image_button",
+			"image": "next.png",
+			"text": { "read": "Start", "download": "Load Story" },
+			"text_style": {"font": "bold 30px Arial Narrow", "fill": "aef923", "stroke": "aef923", "strokeThickness": 2},
+			"button_style": {"color": "0x16c953", "border": {"color": "0xaef923", "thickness": 2}},
+			"image_button": { 
+				"read": {
+					"image": "next.png",
+					"position": {"x": 290, "y": 200},
+					"width": 96, "height": 96
+				}, 
+				"download": {
+					"image": "next.png",
+					"position": {"x": 230, "y": 530},
+					"width": 96, "height": 96
+				}
+			}
+		},
+		"progress": {
+			"bar": {
+				"color": "0xff0000",
+				"alpha": 1,
+				"width": 1280, "height": 5,
+				"position": {"x": 0, "y": 720}
+			},
+			"text": {
+				"style": {"font": "bold 32px Comic Sans MS", "align": "center", "fill": "#000000"},
+				"err_style": {"font": "bold 32px Comic Sans MS", "align": "center", "fill": "#ff0000"},
+				"position": {"x": 640, "y": 700}
+			}			
+		},
+		"title": {
+			"text_style": {
+				"font": "28px Titan One", "fill": "white",
+				"offsetY": 0,
+				"offsetX": 0,
+				"stroke": "black",
+				"strokeThickness": 2
+			},
+			"background": {
+				"color": "0xE6007E",
+				"width": 506, 
+				"height": 60,
+				"alpha": 0
+			}
+		},
+		"content": {
+			"text_style": {
+				"font": "25pt Arial", "fill": "white", "align": "justify",
+				"offsetY": 160,
+				"offsetX": 0, "stroke": "black",
+				"strokeThickness": 2
+			},
+			"background": {
+				"color": "0x1C1C1A",
+				"width": 800, 
+				"height": 600,
+				"alpha": 0
+			}			
+		},
+		"playDialog": {
+			"background": "modalbg2.png",
+			"bg_scale": 1,
+			"offsetX": 0, "offsetY": 0,
+			"new_button": {
+				"type": "text",
+				"text": "Begin",
+				"text_style": {
+					"fontSize": 60,
+					"fontFamily": "Titan One",
+	                "color": "0xE60480",
+					"stroke": "0x000000",
+	                "strokeThickness": 5
+				},
+				"offsetY": -50,
+				"offsetX": 0				
+			},
+			"resume_button": {
+				"type": "text",
+				"text": "Resume",
+				"text_style": {
+					"fontSize": 60,
+					"fontFamily": "Arial Black",
+	                "color": "0xE60480",
+					"stroke": "0x000000",
+	                "strokeThickness": 5
+				},
+				"offsetY": 50,
+				"offsetX": 0
+			},
+			"close_button": {
+				"type": "image",
+				"image": "close.png",	
+				"image_scale": 0.33,
+				"text": "Close",
+				"text_style": {
+					"fontSize": 40,
+					"color": "0x000000",
+					"fontFamily": "Arial"					
+				},
+				"offsetY": -130,
+				"offsetX": 240
+			}
+		},
+		"confirmDialog": {
+			"background": "modalbg.png",
+			"bg_scale": 1,
+			"offsetX": 0, "offsetY": 0,
+			"confirm_message": {
+				"text": "Delete episode's content?",
+				"text_style": {
+					"fontSize": 40,
+					"fontFamily": "Arial Black",
+	                "color": "0xFFFFFF"
+				},
+				"offsetY": -50,
+				"offsetX": 0				
+			},
+			"yes_button": {
+				"type": "text",
+				"text": "Yes",
+				"text_style": {
+					"fontSize": 60,
+					"fontFamily": "Arial Black",
+	                "color": "0xFEFF49",
+					"stroke": "0x000000",
+	                "strokeThickness": 5
+				},
+				"offsetY": 50,
+				"offsetX": -70				
+			},
+			"no_button": {
+				"type": "text",
+				"text": "No",
+				"text_style": {
+					"fontSize": 60,
+					"fontFamily": "Arial Black",
+	                "color": "0xFEFF49",
+					"stroke": "0x000000",
+	                "strokeThickness": 5
+				},
+				"offsetY": 50,
+				"offsetX": 70
+			}
+		},
+		"components": [
+			{
+				"image": "bg.png",
+				"type": "image",
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"width": 1280,
+				"height": 720
+			},
+			{
+				"image": "sun_overlay.png",
+				"type": "image",
+				"position": {
+					"x": -350,
+					"y": -350
+				},
+				"width": 1920,
+				"height": 1920,
+				"animation": [
+					{
+						"anim_type": "translate",
+						"location":{ "angle": 360 },
+						"duration": 30000,
+						"delay": 1000,
+						"loop": -1,
+						"yoyo": false
+					}
+				]
+			},
+			{
+				"image": "cloud.png",
+				"type": "image",
+				"position": {
+					"x": -1000,
+					"y": 60
+				},
+				"width": 255,
+				"height": 164,
+				"animation": [
+					{
+						"anim_type": "translate",
+						"location":{ "x":1380 },
+						"duration": 50000,
+						"delay": 1000,
+						"loop": -1,
+						"yoyo": false
+					}
+				]
+			},
+			{
+				"image": "cloud.png",
+				"type": "image",
+				"position": {
+					"x": -500,
+					"y": 0
+				},
+				"width": 255,
+				"height": 164,
+				"animation": [
+					{
+						"anim_type": "translate",
+						"location":{ "x":1380 },
+						"duration": 40000,
+						"delay": 1000,
+						"loop": -1,
+						"yoyo": false
+					}
+				]
+			},
+			{
+				"image": "cloud_1.png",
+				"type": "image",
+				"position": {
+					"x": -300,
+					"y": 60
+				},
+				"width": 346,
+				"height": 203,
+				"animation": [
+					{
+						"anim_type": "translate",
+						"location":{ "x":1420 },
+						"duration": 30000,
+						"delay": 1000,
+						"loop": -1,
+						"yoyo": false
+					}
+				]
+			},
+			{
+				"image": "cloud_1.png",
+				"type": "image",
+				"position": {
+					"x": -900,
+					"y": 0
+				},
+				"width": 346,
+				"height": 203,
+				"animation": [
+					{
+						"anim_type": "translate",
+						"location":{ "x":1420 },
+						"duration": 50000,
+						"delay": 1000,
+						"loop": -1,
+						"yoyo": false
+					}
+				]
+			},
+			{
+				"image": "fg.png",
+				"type": "image",
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"width": 1280,
+				"height": 720
+			},
+			{
+				"image": "mid_ground_1.png",
+				"type": "image",
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"width": 1280,
+				"height": 720
+			},
+			{
+				"image": "overlay_.png",
+				"type": "image",
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"width": 1280,
+				"height": 720
+			},
+			{
+				"image": "instructions1.png",
+				"type": "image",
+				"position": {
+					"x": 220,
+					"y": 80
+				},
+				"width": 850,
+				"height": 565
+			},
+			{
+				"image": "sprite-girl.png",
+				"type": "spritesheet",
+				"frame_width": 618,
+				"frame_height": 769,
+				"width": 422,
+				"height": 525,
+				"scale": 0.5,
+				"start_pos": 0,
+				"stop_pos": 1,
+				"frames_1": [
+					0,0,0,0,0,0,0,
+					0,0,0,0,0,0,0,
+					0,1,2,3,0,0,0,
+					0,0,0,0,0,0,0,
+					0,0,0,0,0,0,0,
+					0,0,0,0,0,0,0,0,0
+				],
+				"start": "auto",
+				"anim_name": "blink2",
+				"fps": 10,
+				"loop": -1,
+				"position": {
+					"x": 850,
+					"y": 200
+				},
+				"bringToTop":true
+			}
+		]
+	},
+	"narration2": {
+		"next_button": {
+			"image": "next.png",
+			"position": {"x": 1180, "y": 10}
+		},
+		"prev_button": {
+			"image": "previous.png",
+			"position": {"x": 10, "y": 10}
+		},
+		"options_button": {
+			"image": "settings.png",
+			"position": {"x": 1165, "y": 20},
+			"children": {
+				"sound_button": {
+					"on_image": "sound.png",
+					"off_image": "soundoff.png",
+					"position": {"x": 1165, "y": 120}
+				},
+				"music_button": {
+					"on_image": "music.png",
+					"off_image": "musicoff.png",
+					"position": {"x": 1165, "y": 220}
+				},
+				"home_button": {
+					"image": "blank.png",
+					"position": {"x": 1165, "y": 120}
+				}
+			}
+		}
+	},
+	"narration": {
+		"next_button": {
+			"image": "next.png",
+			"position": {"x": 1180, "y": 10}
+		},
+		"prev_button": {
+			"image": "previous.png",
+			"position": {"x": 10, "y": 10}
+		},
+		"narration_side_panel": {
+			"image": "paper_grunge.jpg",
+			"width": 350,
+			"narr_next_button": {
+				"image": "narr_next.png",
+				"position": {"x": 0, "y": 614}
+			},
+			"read_button": {
+				"image": "read.png",
+				"position": {"x": 10, "y": 614}
+			}
+		},
+		"options_button": {
+			"image": "settings.png",
+			"position": {"x": 1165, "y": 20},
+			"children": {
+				"sound_button": {
+					"on_image": "sound.png",
+					"off_image": "soundoff.png",
+					"position": {"x": 1165, "y": 120}
+				},
+				"music_button": {
+					"on_image": "music.png",
+					"off_image": "musicoff.png",
+					"position": {"x": 1165, "y": 220}
+				},
+				"home_button": {
+					"image": "blank.png",
+					"position": {"x": 1165, "y": 120}
+				}
+			}
+		}
+	},
+	"about": {
+		"background": "bg2.png",
+		"audio": "",
+		"home_button": {
+			"image": "home.png",
+			"position": {
+				"x": 10, "y": 10
+			}
+		},
+		"title": {
+			"text": "Seefa Games",
+			"text_style": {"font": "bold 28pt Arial Black", "stroke": "white", "strokeThickness": 5, "fill": "#024d58"},
+			"position": {"x": 237, "y": 70},
+			"background": {
+				"color": "0xffffff",
+				"shape": "round_rect",
+				"radius": 20,
+				"width": 806, 
+				"height": 40,
+				"alpha": 0
+			}
+		},
+		"content": {
+			"color": "#411804",
+			"shape": "round_rect",
+			"position": {"x": 90, "y": 60},
+			"radius": 20,
+			"width": 1100,
+			"height": 600,
+			"alpha": 0,
+			"text": "",
+			"text_style": {"font": "17pt Arial", "fill": "#ffffff", "align":"center", "wordWrap": true, "wordWrapWidth": 1080}
+		}
+	},
+	"editpassword": {
+		"background": "background_1.png",
+		"audio": "Music/Theme_song1.mp3",
+		"components": "profile_components",
+		"home_button": {
+			"image": "home.png",
+			"position": {
+				"x": 10, "y": 10
+			}
+		},
+		"current_password": {
+			"label": {
+				"text": "Current Password",
+				"hint": true,
+				"text_style": { "font": "30pt Arial bold", "fill": "#c4c4c4", "stroke": "#ffffff", "strokeThickness": 0 },
+				"position": { "x": 240, "y": 205 }
+			},
+			"max_length": 8,
+			"position": {"x": 220, "y": 200},
+			"width": 360, "height": 50,
+			"text_style": {"font": "17pt Arial", "fill": "#000000", "align":"center"},
+			"background": {		
+				"type": "bgcolor",
+				"image": "textbox.png",
+				"bgcolor": {
+					"color": "0xffffff",
+					"border": {
+						"color": "0xFFFFFF",
+						"thickness": 1.5,
+						"radius": 50
+					}
+				}
+			}
+		},
+		"password": {
+			"label": {
+				"text": "New Password",
+				"hint": true,
+				"text_style": { "font": "30pt Arial bold", "fill": "#c4c4c4", "stroke": "#ffffff", "strokeThickness": 0 },
+				"position": { "x": 240, "y": 265 }
+			},
+			"max_length": 8,
+			"position": {"x": 220, "y": 260},
+			"width": 360, "height": 50,
+			"text_style": {"font": "17pt Arial", "fill": "#000000", "align":"center"},
+			"background": {		
+				"type": "bgcolor",
+				"image": "textbox.png",
+				"bgcolor": {
+					"color": "0xffffff",
+					"border": {
+						"color": "0xFFFFFF",
+						"thickness": 1.5,
+						"radius": 50
+					}
+				}
+			}
+		},
+		"confirm_password": {
+			"label": {
+				"text": "Confirm Password",
+				"hint": true,
+				"text_style": { "font": "30pt Arial bold", "fill": "#c4c4c4", "stroke": "#ffffff", "strokeThickness": 0 },
+				"position": { "x": 240, "y": 325 }
+			},
+			"max_length": 8,
+			"position": {"x": 220, "y": 320},
+			"width": 360, "height": 50,
+			"text_style": {"font": "17pt Arial", "fill": "#000000", "align":"center"},
+			"background": {		
+				"type": "bgcolor",
+				"image": "textbox.png",
+				"bgcolor": {
+					"color": "0xffffff",
+					"border": {
+						"color": "0xFFFFFF",
+						"thickness": 1.5,
+						"radius": 50
+					}
+				}
+			}
+		},
+		"save_button": {
+			"text": "Save",
+			"position": {"x": 202, "y": 510},
+			"type": "button",
+			"image": "menu_screen/register.png",
+			"width": 197,
+			"height": 58,
+			"text_style": {"font": "bold 30px Arial", "fill": "#311102"},
+			"button_style": {"color": "0xffffff", "border": {"color": "0xffffff", "thickness": 0}}
+		},
+		"cancel_button": {
+			"text": "Cancel",
+			"position": {"x": 401, "y": 510},
+			"type": "button",
+			"image": "menu_screen/register.png",
+			"width": 197,
+			"height": 58,
+			"text_style": {"font": "bold 30px Arial", "fill": "#311102"},
+			"button_style": {"color": "0xffffff", "border": {"color": "0xffffff", "thickness": 0}}
+		}
+	},
+	"achievement": {
+		"background": "bg.png",
+		"audio": "menu/ambing.mp3",
+		"home_button": {
+			"image": "home.png",
+			"position": {
+				"x": 20,
+				"y": 20
+			}
+		},
+		"title": {
+			"text": "Achievements",
+			"text_style": {
+				"font": "bold 40pt forte",
+				"fill": "#FEFF49",
+				"stroke": "0x000000",
+				"strokeThickness": 5
+			},
+			"position": {
+				"x": 237,
+				"y": 30
+			},
+			"background": {
+				"color": "0xffffff",
+				"shape": "round_rect",
+				"radius": 20,
+				"width": 806,
+				"height": 60,
+				"alpha": 0
+			}
+		},
+		"list_background": {
+			"color": "0xffffff",
+			"shape": "rect",
+			"position": {
+				"x": 192,
+				"y": 140
+			},
+			"radius": 20,
+			"width": 896,
+			"height": 524,
+			"alpha": 0
+		},
+		"list_row": {
+			"badgeWidth": 96,
+			"badgeHeight": 96,
+			"facebook_icon": {
+				"image": "facebook.png",
+				"width": "64",
+				"height": "64"
+			},
+			"twitter_icon": {
+				"image": "twitter.png",
+				"width": "64",
+				"height": "64"
+			},
+			"disable_social": false,
+			"title_style": {
+				"font": "bold 22pt Arial",
+				"fill": "white",
+				"align": "left",
+				"wordWrap": true,
+				"wordWrapWidth": 500
+			},
+			"message_style": {
+				"font": "19pt Arial",
+				"fill": "black",
+				"align": "left",
+				"wordWrap": true,
+				"wordWrapWidth": 560
+			},
+			"vertical_spacing": 5,
+			"padding": {
+				"left": 50,
+				"top": 5,
+				"right": 50
+			},
+			"background": {
+				"type": "image",
+				"shape": "rect",
+				"radius": 20,
+				"image": "plank.png",
+				"color": "0xffffff",
+				"width": 896,
+				"height": 120,
+				"alpha": 0.8
+			}
+		}
+	},
+	"quiz": {
+		"next_button": {
+			"image": "next.png",
+			"position": {"x": 1180, "y": 10}
+		},
+		"prev_button": {
+			"image": "previous.png",
+			"position": {"x": 10, "y": 10}
+		},
+		"options_button": {
+			"image": "settings.png",
+			"position": {"x": 1165, "y": 20},
+			"children": {
+				"sound_button": {
+					"on_image": "sound.png",
+					"off_image": "soundoff.png",
+					"position": {"x": 1165, "y": 120}
+				},
+				"music_button": {
+					"on_image": "music.png",
+					"off_image": "musicoff.png",
+					"position": {"x": 1165, "y": 220}
+				},
+				"home_button": {
+					"image": "blank.png",
+					"position": {"x": 1165, "y": 120}
+				}
+			}
+		}
+	},
+	"decision": {
+		"next_button": {
+			"image": "next.png",
+			"position": {"x": 1180, "y": 10}
+		},
+		"prev_button": {
+			"image": "previous.png",
+			"position": {"x": 10, "y": 10}
+		},
+		"options_button": {
+			"image": "settings.png",
+			"position": {"x": 1165, "y": 20},
+			"children": {
+				"sound_button": {
+					"on_image": "sound.png",
+					"off_image": "soundoff.png",
+					"position": {"x": 1165, "y": 120}
+				},
+				"music_button": {
+					"on_image": "music.png",
+					"off_image": "musicoff.png",
+					"position": {"x": 1165, "y": 220}
+				},
+				"home_button": {
+					"image": "blank.png",
+					"position": {"x": 1165, "y": 120}
+				}
+			}
+		}
+	},
+	"dialogue": {
+		"read_mode_button": {
+			"default_mode": "auto",
+			"position": {"x": 20, "y": 614},
+			"type": "image",
+			"image": {"auto": "stop.png", "manual": "autoplay.png"},
+			"width": 120, "height": 96,	
+			"text_style": {"font": "30px Arial", "fill": "white"},
+			"button_style": {"color": "0xff0000", "border": {"color": "0xffffff", "thickness": 1}}
+		},
+		"next_button": {
+			"image": "next.png",
+			"position": {"x": 1180, "y": 10}
+		},
+		"prev_button": {
+			"image": "previous.png",
+			"position": {"x": 10, "y": 10}
+		},
+		"options_button": {
+			"image": "settings.png",
+			"position": {"x": 1165, "y": 20},
+			"children": {
+				"sound_button": {
+					"on_image": "sound.png",
+					"off_image": "soundoff.png",
+					"position": {"x": 1165, "y": 120}
+				},
+				"music_button": {
+					"on_image": "music.png",
+					"off_image": "musicoff.png",
+					"position": {"x": 1165, "y": 220}
+				},
+				"home_button": {
+					"image": "blank.png",
+					"position": {"x": 1165, "y": 120}
+				}
+			}
+		}
+	},
+	"choice": {
+		"next_button": {
+			"image": "next.png",
+			"position": {"x": 1180, "y": 10}
+		},
+		"prev_button": {
+			"image": "previous.png",
+			"position": {"x": 10, "y": 10}
+		},
+		"options_button": {
+			"image": "settings.png",
+			"position": {"x": 1165, "y": 20},
+			"children": {
+				"sound_button": {
+					"on_image": "sound.png",
+					"off_image": "soundoff.png",
+					"position": {"x": 1165, "y": 120}
+				},
+				"music_button": {
+					"on_image": "music.png",
+					"off_image": "musicoff.png",
+					"position": {"x": 1165, "y": 220}
+				},
+				"home_button": {
+					"image": "blank.png",
+					"position": {"x": 1165, "y": 120}
+				}
+			}
+		}
+	},
+	"activity": {
+		"next_button": {
+			"image": "next.png",
+			"position": {"x": 1180, "y": 10}
+		},
+		"prev_button": {
+			"image": "previous.png",
+			"position": {"x": 10, "y": 10}
+		},
+		"options_button": {
+			"image": "settings.png",
+			"position": {"x": 1165, "y": 20},
+			"children": {
+				"sound_button": {
+					"on_image": "sound.png",
+					"off_image": "soundoff.png",
+					"position": {"x": 1165, "y": 120}
+				},
+				"music_button": {
+					"on_image": "music.png",
+					"off_image": "musicoff.png",
+					"position": {"x": 1165, "y": 220}
+				},
+				"home_button": {
+					"image": "blank.png",
+					"position": {"x": 1165, "y": 120}
+				}
+			}
+		}
+	},
+	"advice": {
+		"next_button": {
+			"image": "next.png",
+			"position": {"x": 1180, "y": 10}
+		},
+		"prev_button": {
+			"image": "previous.png",
+			"position": {"x": 10, "y": 10}
+		},
+		"options_button": {
+			"image": "settings.png",
+			"position": {"x": 1165, "y": 20},
+			"children": {
+				"sound_button": {
+					"on_image": "sound.png",
+					"off_image": "soundoff.png",
+					"position": {"x": 1165, "y": 120}
+				},
+				"music_button": {
+					"on_image": "music.png",
+					"off_image": "musicoff.png",
+					"position": {"x": 1165, "y": 220}
+				},
+				"home_button": {
+					"image": "blank.png",
+					"position": {"x": 1165, "y": 120}
+				}
+			}
+		}
+	},
+	"blank": {
+		"next_button": {
+			"image": "next.png",
+			"position": {"x": 1180, "y": 10}
+		},
+		"prev_button": {
+			"image": "previous.png",
+			"position": {"x": 10, "y": 10}
+		},
+		"options_button": {
+			"image": "settings.png",
+			"position": {"x": 1165, "y": 20},
+			"children": {
+				"sound_button": {
+					"on_image": "sound.png",
+					"off_image": "soundoff.png",
+					"position": {"x": 1165, "y": 120}
+				},
+				"music_button": {
+					"on_image": "music.png",
+					"off_image": "musicoff.png",
+					"position": {"x": 1165, "y": 220}
+				},
+				"home_button": {
+					"image": "blank.png",
+					"position": {"x": 1165, "y": 120}
+				}
+			}
+		}
+	},
+	"back_button": {
+		"next_screen": "select_option",
+		"next_screen2": "select_game",
+		"image": "back.png",
+		"position": {
+			"x": 20,
+			"y": 600
+		},
+		"width": 20,
+		"height": 20
+	},
+	"purchase": {
+		"background": "bg2.png",
+		"audio": "",
+		"panel": {
+			"image": "purchase.png"
+		},
+		"container": {
+			"image": "purchase_container.png"
+		},
+		"home_button": {
+			"image": "home.png",
+			"position": {"x": 20, "y": 20}
+		},
+		"sold": {
+			"image": "purchase_sold.png",
+			"position": {"x": 240, "y": 0}
+		},
+		"soldText": {
+			"text": "SOLD",
+			"text_style": {
+				"font": "55px Titan One", "fill": "#6d4e00", "align":"center",
+				"offsetY": 0,
+				"offsetX": 0
+			},
+			"position": {"x": 0, "y": 0}
+		},
+		"title": {
+			"text": "ALL LEVELS",
+			"text_style": {
+				"font": "55px Titan One", "fill": "white", "align":"center",
+				"offsetY": 0,
+				"offsetX": 0
+			},
+			"position": {"x": -240, "y": -40}
+		},
+		"price": {
+			"text": "$ 1.00 USD",
+			"text_style": {
+				"font": "55px Titan One", "fill": "#6d4e00", "align":"center",
+				"offsetY": 0,
+				"offsetX": 0
+			},
+			"position": {"x": -240, "y": 40}
+		},
+		"content": {
+			"color": "#411804",
+			"shape": "round_rect",
+			"position": {"x": 90, "y": 60},
+			"radius": 20,
+			"width": 1100,
+			"height": 600,
+			"alpha": 0,
+			"text": "",
+			"text_style": {"font": "17pt Arial", "fill": "#ffffff", "align":"center", "wordWrap": true, "wordWrapWidth": 1080}
+		}
+	}
+}

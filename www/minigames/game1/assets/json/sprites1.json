@@ -1,0 +1,192 @@
+{
+  "tri_1": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  -12, 132,   48, -3,  120, 130 ]
+    }
+  ],
+  "r_tri_1": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  -12, 132,   48, -3,  120, 130 ]
+    }
+  ],
+  "tri_01": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [   -12, 155,   56.7, -5,    145, 155 ]
+    }
+  ],
+  "r_tri_01": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [   -12, 155,   56.7, -5,    145, 155 ]
+    }
+  ],
+  "tri_2": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  -3, 63,  133, -12,   133, 123  ]
+    }
+  ],
+  "r_tri_2": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  -3, 63,  133, -12,   133, 123  ]
+    }
+  ],
+  "tri_02": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  0, 77.50,  158, -2,   180, 0,    184, 140,   170, 165,  0, 93  ]
+    }
+  ],
+  "r_tri_02": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  0, 77.50,  158, -2,   180, 0,    184, 140,   170, 165,  0, 93  ]
+    }
+  ],
+  "tri_3": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  60, 132, -13, 1, 120, 1 ]
+    }
+  ],
+  "r_tri_3": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  60, 132, -13, 1, 120, 1 ]
+    }
+  ],
+  "tri_4": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  3, 125, 3, 10, 15, -3, 136, 50]
+    }
+  ],
+  "r_tri_4": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  3, 125, 3, 10, 15, -3, 136, 50]
+    }
+  ],
+  "tri_5": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  -5, 81, 30, 0, 75, 81 ]
+    }
+  ],
+  "r_tri_5": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  -5, 81, 30, 0, 75, 81 ]
+    }
+  ],
+  "tri_6": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [-1, 39, 75, -3, 75, 72]
+    }
+  ],
+  "r_tri_6": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [-1, 39, 75, -3, 75, 72]
+    }
+  ],
+  "bar_02": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  1, 143, 115, 0, 125, 14, 14, 158 ]
+    }
+  ],
+  "bar_6": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  103, 157, 0, 10, 13, -1, 115, 143]
+    }
+  ],
+  "bar_8": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  103, 141, 0, 10, 13, -1, 115, 129]
+    }
+  ],
+  "bar_7": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  1, 143, 115, 0, 125, 14, 14, 158 ]
+    }
+  ],
+  "tri_03": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  69.50, 139, 0, 0, 170, 0  ]
+    }
+  ],
+
+  "r_tri_03": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  69.50, 139, 0, 0, 170, 0  ]
+    }
+  ],
+  "bar_5": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [68, 95, 5, 10, 22, 0, 83, 80]
+    }
+  ],
+  "bar_9": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  0, 97, 63, 0, 84, 0, 17, 97 ]
+    }
+  ],
+  "bar_14": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [  -72, 0, -72, 14, 72, 0, 72, 14 ]
+    }
+  ],
+  "tri_7": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [ 34, 80, 0, 0,  68, 0  ]
+    }
+  ],
+  "r_tri_7": [
+    {
+      "density": 2, "friction": 0, "bounce": 0,
+      "filter": { "categoryBits": 1, "maskBits": 65535 },
+      "shape": [ 34, 80, 0, 0,  68, 0  ]
+    }
+  ]
+}

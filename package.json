@@ -1,0 +1,44 @@
+{
+  "name": "dev.seefa.game",
+  "displayName": "Seefa-Game",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^11.0.0",
+    "cordova-plugin-applovin-max": "^1.0.9",
+    "cordova-plugin-device": "^2.1.0",
+    "cordova-plugin-file": "^6.0.2",
+    "cordova-plugin-media": "^5.0.4",
+    "cordova-plugin-native-spinner": "^1.1.4",
+    "cordova-plugin-purchase": "^11.0.0",
+    "cordova-plugin-screen-orientation": "^3.0.2",
+    "es6-promise-plugin": "^4.2.2"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-media": {},
+      "cordova-plugin-screen-orientation": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-applovin-max": {},
+      "cordova-plugin-purchase": {
+        "BILLING_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqidEX+hMVcQctgKAweuSC36lAvU0/QWPMXHp2Jz1CXdN/Oti+Jiq+WteHsWTewHrhLiYeIXxXsIAUAjwrU0cgplP/Vs4dmKkY/Cvow9KWk6TluTtzGqvMiwOsWHWtiOKcmD2rX4GNWCVDXH697YXYoelj0wJgnK9vhXl8yjWzo1IgP3IcT4EWuqUcMabadlg0AeCVbL0mTvDf2I0hPxIHCzSE3uMHZSr33vMRGAmuYz/1mvWEz+w7YyZ+08HX3pVYlpoOaO/BWKnjtUiXgF8eVEcpHslFfOqOz2e6QubDGFPCOpR6z3kPeXTpnXimRXFEo8buOOfnfw8zWW2gzuvswIDAQAB"
+      },
+      "cordova-plugin-native-spinner": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova": "^5.4.1"
+  }
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Trampoline</title>
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />    
+        <script type="text/javascript" src="scripts/phaser.min.js"></script>
+         <script type="text/javascript" src="../../libs/store.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="scripts/sound.js"></script>
+        <script type="text/javascript" src="scripts/purchasePopup.js"></script>
+        <script type="text/javascript" src="scripts/boot.js"></script>
+        <script type="text/javascript" src="scripts/preloader.js"></script>
+        <script type="text/javascript" src="scripts/play.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+        <script type="text/javascript" src="../../cordova.js"></script>
+
+
+        <style type="text/css">
+            html, body {
+                width: 100%;
+                height: 100%;
+                background-color: #000000;
+                margin: 0;
+                padding: 0;
+            }
+
+    #container {
+    position: relative;
+    }
+    #container canvas, #overlay {
+     position: absolute;
+    margin-top: 19%;
+    margin-left: 54%;
+    padding: 8px;
+    color: white;
+    font-size: 13px;
+    width: 225px;
+    }
+    canvas {
+    border: 1px solid black;
+    }
+    div#google-pay-button-container {
+    display: none;
+}
+div#overlay img {
+    width: 40%;
+}
+</style>
+    </head>
+    <body>
+
+    <div id="container" style="display:none;">
+        <div id="overlay" onclick="location.href='purchase.html';">
+            <img src="../../apple_pay.png">
+          </div>
+    </div>
+
+
+    </body>
+</html>

@@ -1,0 +1,1415 @@
+{
+	"quiz_1": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Ring worm is caused by ___________",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "14pt Arial", "fill": "black",  "wordWrap": true, "wordWrapWidth": 500 },			
+				"texts": [
+					{
+						"text": "A. ...a worm shaped virus known as Eisenia fetida",
+						"position": {"x": 400, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. ...a very uncommon group of ring shaped fungi, called vermis hiddea.",
+						"position": {"x": 400, "y": 340},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. ...fungi, called tinea, which can be found commonly around us",
+						"position": {"x": 400, "y": 460},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 335, "y": 60},
+				"width": 650,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		}
+	],
+	"quiz_2": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Let’s play, ONE TRUTH, TWO BIG FAT LIES! See the BIG FAT LIES? Go ahead and select the ONE TRUTH",
+				"text_style": { "font": "bold 16pt Arial", "fill": "black", "align":"center", "wordWrap": true, "wordWrapWidth": 520 },
+				"position": {"x": 400, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "14pt Arial", "fill": "black",  "wordWrap": true, "wordWrapWidth": 500 },				
+				"texts": [
+					{
+						"text": "A. ...ringworm is not very contagious because the causative organism dies off easily in sunshine",
+						"position": {"x": 400, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. ...ringworm spreads very easily, because it spreads through contact with people and infected objects.",
+						"position": {"x": 400, "y": 340},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. ...ringworm is very contagious in Ghana, because carbohydrates (a food staple here), helps ringworm organisms multiply faster",
+						"position": {"x": 400, "y": 460},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 335, "y": 60},
+				"width": 650,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 626}
+			}
+		}
+	],
+	"quiz_3": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Let’s play MYTH and FACT",
+				"text_style": { "font": "bold 20pt Arial", "fill": "black", "align":"center", "wordWrap": true, "wordWrapWidth": 520 },
+				"position": {"x": 400, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "14pt Arial", "fill": "black",  "wordWrap": true, "wordWrapWidth": 500 },			
+				"texts": [
+					{
+						"text": "A. Ringworm doesn't only affect the scalp, it can affect other parts of your skin, feet, nails and groin.",
+						"position": {"x": 400, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Ringworm can affect your internal organs causing circular lesions on critical organs such as intestines, heart, and liver",
+						"position": {"x": 400, "y": 340},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 335, "y": 60},
+				"width": 650,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 626}
+			}
+		}
+	],
+	"quiz_4": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Let’s play, TWO LIES, ONE TRUTH\nPick out the ONE TRUTH out of the following. \nKeep your eyes open or you’ll be tripped up by the TWO LIES",
+				"text_style": { "font": "bold 16pt Arial", "fill": "black", "align":"center", "wordWrap": true, "wordWrapWidth": 520 },
+				"position": {"x": 400, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "14pt Arial", "fill": "black",  "wordWrap": true, "wordWrapWidth": 500 },			
+				"texts": [
+					{
+						"text": "A. Commonly found antifungal ointments and creams will treat most types of ringworm",
+						"position": {"x": 400, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Most types of ringworm can be treated with antiseptic soap and/or bath disinfectants used consistently over a prescribed period.",
+						"position": {"x": 400, "y": 340},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Genuine oral antibiotics are required for the treatment of ringworm.",
+						"position": {"x": 400, "y": 460},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 335, "y": 60},
+				"width": 650,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 626}
+			}
+		}
+	],
+	"quiz_5": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Malaria is NOT a disease of the blood.",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "TRUE",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "FALSE",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Malaria is caused by Plasmodium Falciparum.",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "TRUE",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "FALSE",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "The incubation period for malaria is between 10 days to 14 days.",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "TRUE",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "FALSE",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "The first line of treatment for malaria in Ghana is Artesunate Amodiaquine / Artemeter - Lufemantrine",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "TRUE",
+						"position": {"x": 450, "y": 270},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "FALSE",
+						"position": {"x": 450, "y": 340},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Insectide Treated Nets (ITNs) are NOT the most effective way of preventing malaria in Ghana",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "TRUE",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "FALSE",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		}
+	],
+	"quiz_6": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "1. Cardinal Sign of Malaria",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. Chills",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Headache",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Fever",
+						"position": {"x": 450, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. General Body Pains",
+						"position": {"x": 450, "y": 430},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "2. At the community level what test do you perform to confirm malaria?",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. Microscopy",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Rapid Diagnostic Test",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Eliezer",
+						"position": {"x": 450, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Slides",
+						"position": {"x": 450, "y": 430},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "3. What will you for a child under five (5) years with fever:\n\n1. Give first line anti-malarial\n2. Sponge the Child\n3. Test for malaria",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. 3, 2, 1",
+						"position": {"x": 450, "y": 320},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. 2, 3, 1",
+						"position": {"x": 450, "y": 390},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. 1, 3, 2",
+						"position": {"x": 450, "y": 460},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Any order is adequate",
+						"position": {"x": 450, "y": 530},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 590}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "4. Which of the following is an important service(s) provided to a pregnant woman during home visits?",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },
+				"position": {"x": 380, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },				
+				"texts": [
+					{
+						"text": "A. Check current Antenatal records",
+						"position": {"x": 380, "y": 250},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Ensure that the pregnant woman is taking SP",
+						"position": {"x": 380, "y": 320},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Ensuring the pregnant women is sleeping inside Inspective Treated Nets",
+						"position": {"x": 380, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. All of the Above",
+						"position": {"x": 380, "y": 520},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 365, "y": 60},
+				"width": 550,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 608, "y": 590}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "5. Which of the following is the primary sign of Severe Malaria at the community level?",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. Unconsciousness",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Dark cola-coloured urine",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Fever over 38.5 Degree Celsius",
+						"position": {"x": 450, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Restlessness",
+						"position": {"x": 450, "y": 430},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "6. Which groups of people are MOST at risk of getting malaria",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },
+				"position": {"x": 380, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },				
+				"texts": [
+					{
+						"text": "A. Pregnant Women & Children under Five",
+						"position": {"x": 380, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Newly Married & Rich Pregnant Women",
+						"position": {"x": 380, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Underprivileged Pregnant Women & People living in slums",
+						"position": {"x": 380, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Pregnant Female Health worker who runs Night Duty Staff",
+						"position": {"x": 380, "y": 460},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 365, "y": 60},
+				"width": 550,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 608, "y": 590}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "7. The 'T3' in the World Health Organisation (WHO) Malaria T3 initiative stands for:",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. Test, Treat and Track",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Trial, Treat, Tackle",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Treat, Tackle, Test",
+						"position": {"x": 450, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Test, Track, Treat",
+						"position": {"x": 450, "y": 430},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "8. Environmental management is one of the ways of managing malaria",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },
+				"position": {"x": 380, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },				
+				"texts": [
+					{
+						"text": "A. Clearing weeds, filling potholes, use mosquito proofed windows ",
+						"position": {"x": 380, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Build new roads, Ensure clean gutters",
+						"position": {"x": 380, "y": 320},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Desilt all lagoons & choked gutters",
+						"position": {"x": 380, "y": 390},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Do larvae spraying of all swift flowing waters",
+						"position": {"x": 380, "y": 460},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 365, "y": 60},
+				"width": 550,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 608, "y": 590}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "9. What other signs and symptoms apart from fever do you find in a child under 5 with malaria",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },
+				"position": {"x": 380, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },				
+				"texts": [
+					{
+						"text": "A. Sleeplessness and Refusal to eat",
+						"position": {"x": 380, "y": 250},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Vomiting and Crying",
+						"position": {"x": 380, "y": 320},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Diarrhoea and Upper Respiratory Infections",
+						"position": {"x": 380, "y": 390},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. General malaise & teething",
+						"position": {"x": 380, "y": 490},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 365, "y": 60},
+				"width": 550,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 608, "y": 590}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "10. What other signs and symptoms apart from fever do you find in adults",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. Chills",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Hypertension",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Diarrhoea",
+						"position": {"x": 450, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Stomach Ache",
+						"position": {"x": 450, "y": 430},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a",
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		}
+	]
+}

@@ -1,0 +1,766 @@
+{
+    "select_mode": [
+        {
+            "image": "blank.png",
+            "type": "image",
+            "position": {
+                "x": 400,
+                "y": 30
+            },
+            "width": 350,
+            "height": 200
+        }
+    ],
+    "back_button": {
+        "next_screen": "select_option",
+        "next_screen2": "select_game",
+        "image": "back.png",
+        "position": {
+            "x": 20,
+            "y": 600
+        },
+        "width": 20,
+        "height": 20
+    },
+    "menu_new": [   
+        {
+            "image": "sun_overlay.png",
+            "type": "image",
+            "position": {
+                "x": -350,
+                "y": -350
+            },
+            "width": 1920,
+            "height": 1920,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "angle": 360 },
+                    "duration": 20000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "cloud.png",
+            "type": "image",
+            "position": {
+                "x": -1000,
+                "y": 60
+            },
+            "width": 255,
+            "height": 164,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1380 },
+                    "duration": 50000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "cloud.png",
+            "type": "image",
+            "position": {
+                "x": -500,
+                "y": 0
+            },
+            "width": 255,
+            "height": 164,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1380 },
+                    "duration": 40000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "cloud_1.png",
+            "type": "image",
+            "position": {
+                "x": -300,
+                "y": 60
+            },
+            "width": 346,
+            "height": 203,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1420 },
+                    "duration": 30000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "cloud_1.png",
+            "type": "image",
+            "position": {
+                "x": -900,
+                "y": 0
+            },
+            "width": 346,
+            "height": 203,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1420 },
+                    "duration": 50000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "fg.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "image": "mid_ground_1.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "image": "overlay_.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "image": "logo2.png",
+            "type": "image",
+            "position": {
+                "x": 370,
+                "y": 40
+            },
+            "width": 538,
+            "height": 96
+        },
+        {
+            "image": "sprite-boy.png",
+            "type": "spritesheet",
+            "frame_width": 545,
+            "frame_height": 993,
+            "width": 319,
+            "height": 525,
+            "scale": 0.5,
+            "start_pos": 0,
+            "stop_pos": 1,
+            "frames_1": [
+                0,0,0,0,0,0,0,
+                0,0,0,0,0,0,0,
+                0,1,2,3,0,0,0,
+                0,0,0,0,0,0,0,
+                0,0,0,0,0,0,0,
+                0,0,0,0,0,0,0
+            ],
+            "start": "auto",
+            "anim_name": "blink",
+            "fps": 10,
+            "loop": -1,
+            "position": {
+                "x": 30,
+                "y": 200
+            }
+        },
+        {
+            "image": "sprite-girl.png",
+            "type": "spritesheet",
+            "frame_width": 618,
+            "frame_height": 769,
+            "width": 422,
+            "height": 525,
+            "scale": 0.5,
+            "start_pos": 0,
+            "stop_pos": 1,
+            "frames_1": [
+                0,0,0,0,0,0,0,
+                0,0,0,0,0,0,0,
+                0,1,2,3,0,0,0,
+                0,0,0,0,0,0,0,
+                0,0,0,0,0,0,0,
+                0,0,0,0,0,0,0,0,0
+            ],
+            "start": "auto",
+            "anim_name": "blink2",
+            "fps": 10,
+            "loop": -1,
+            "position": {
+                "x": 850,
+                "y": 200
+            }
+        }
+    ],
+    "menu_new2": [
+        {
+            "image": "sun_overlay.png",
+            "type": "image",
+            "position": {
+                "x": -350,
+                "y": -350
+            },
+            "width": 1920,
+            "height": 1920,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "angle": 360 },
+                    "duration": 20000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "cloud.png",
+            "type": "image",
+            "position": {
+                "x": -1000,
+                "y": 60
+            },
+            "width": 255,
+            "height": 164,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1380 },
+                    "duration": 50000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "cloud.png",
+            "type": "image",
+            "position": {
+                "x": -500,
+                "y": 0
+            },
+            "width": 255,
+            "height": 164,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1380 },
+                    "duration": 40000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "cloud_1.png",
+            "type": "image",
+            "position": {
+                "x": -300,
+                "y": 60
+            },
+            "width": 346,
+            "height": 203,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1420 },
+                    "duration": 30000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "cloud_1.png",
+            "type": "image",
+            "position": {
+                "x": -900,
+                "y": 0
+            },
+            "width": 346,
+            "height": 203,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1420 },
+                    "duration": 50000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "fg.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "image": "mid_ground_1.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "image": "overlay_.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "image": "logo2.png",
+            "type": "image",
+            "position": {
+                "x": 370,
+                "y": 15
+            },
+            "width": 538,
+            "height": 96
+        },
+        {
+            "shape": "rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.2,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 720
+            },
+            "width": 1280,
+            "height": 720,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "duration": 800,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        }
+    ],
+    "menu_new3": [
+        {
+            "image": "sun_overlay.png",
+            "type": "image",
+            "position": {
+                "x": -350,
+                "y": -350
+            },
+            "width": 1920,
+            "height": 1920,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "angle": 360 },
+                    "duration": 20000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "cloud.png",
+            "type": "image",
+            "position": {
+                "x": -1000,
+                "y": 60
+            },
+            "width": 255,
+            "height": 164,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1380 },
+                    "duration": 50000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "cloud.png",
+            "type": "image",
+            "position": {
+                "x": -500,
+                "y": 0
+            },
+            "width": 255,
+            "height": 164,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1380 },
+                    "duration": 40000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "cloud_1.png",
+            "type": "image",
+            "position": {
+                "x": -300,
+                "y": 60
+            },
+            "width": 346,
+            "height": 203,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1420 },
+                    "duration": 30000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "cloud_1.png",
+            "type": "image",
+            "position": {
+                "x": -900,
+                "y": 0
+            },
+            "width": 346,
+            "height": 203,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location":{ "x":1420 },
+                    "duration": 50000,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "fg.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "image": "mid_ground_1.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "image": "overlay_.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "width": 1280,
+            "height": 720
+        },
+        {
+            "shape": "rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.2,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 720
+            },
+            "width": 1280,
+            "height": 720,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "duration": 800,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        }
+    ],
+    "nurse_student_components": [    
+        {
+            "image": "more_reg/main_bar.png",
+            "type": "image",
+            "position": {
+                "x": 250,
+                "y": 30
+            },
+            "width": 700,
+            "height": 550
+        },
+        {
+            "type": "text",
+            "text": "HEALTH PROFESSIONAL",
+            "style": {
+                "font": "bold 35pt Arial",
+                "fill": "white",
+                "align": "center"
+            },
+            "position": {
+                "x": 300,
+                "y": 60
+            }
+        }
+    ],
+    "reg_components": [        
+        {
+            "image": "more_reg/main_bar.png",
+            "type": "image",
+            "position": {
+                "x": 250,
+                "y": 30
+            },
+            "width": 700,
+            "height": 550
+        },
+        {
+            "type": "text",
+            "text": " REGISTER ",
+            "style": {
+                "font": "bold 35pt Arial",
+                "fill": "white",
+                "align": "center"
+            },
+            "position": {
+                "x": 300,
+                "y": 60
+            }
+        }
+    ],
+    "guest_components": [
+        {
+            "image": "reg_bg.png",
+            "type": "image",
+            "position": {
+                "x": 150,
+                "y": 30
+            },
+            "width": 443,
+            "height": 500
+        },
+        {
+            "image": "guest-header.png",
+            "type": "image",
+            "position": {
+                "x": 120,
+                "y": 30
+            },
+            "width": 443,
+            "height": 66
+        }
+    ],
+    "nickname_field": [
+        {
+            "image": "nickname_prompt.png",
+            "type": "image",
+            "position": {
+                "x": 450,
+                "y": 220
+            }
+        }
+    ],
+    "sex_field": [
+        {
+            "image": "gender_prompt.png",
+            "type": "image",
+            "position": {
+                "x": 380,
+                "y": 150
+            }
+        }
+    ],
+    "age_field": [
+        {
+            "image": "age_prompt.png",
+            "type": "image",
+            "position": {
+                "x": 380,
+                "y": 120
+            }
+        }
+    ],
+    "Profession_field": [
+        {
+            "image": "profession_prompt.png",
+            "type": "image",
+            "position": {
+                "x": 380,
+                "y": 120
+            }
+        }
+    ],
+    "yearsofservice_field": [
+        {
+            "image": "years_of_service_prompt.png",
+            "type": "image",
+            "position": {
+                "x": 380,
+                "y": 120
+            }
+        }
+    ],
+    "typeoffacility_field": [
+        {
+            "image": "type_of_facility_prompt.png",
+            "type": "image",
+            "position": {
+                "x": 350,
+                "y": 150
+            }
+        }
+    ],
+    "region_field": [
+        {
+            "image": "region_prompt.png",
+            "type": "image",
+            "position": {
+                "x": 380,
+                "y": 120
+            }
+        }
+    ],
+    "password_field": [
+        {
+            "image": "password_prompt.png",
+            "type": "image",
+            "position": {
+                "x": 380,
+                "y": 150
+            }
+        },
+        {
+            "image": "confirm_password_prompt.png",
+            "type": "image",
+            "position": {
+                "x": 380,
+                "y": 300
+            }
+        }
+    ],
+    "institution_field": [
+        {
+            "image": "institution_prompt.png",
+            "type": "image",
+            "position": {
+                "x": 350,
+                "y": 130
+            }
+        },
+        {
+            "image": "course_prompt.png",
+            "type": "image",
+            "position": {
+                "x": 450,
+                "y": 250
+            }
+        }
+    ],
+    "profile_components": [
+        {
+            "shape": "rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 1,
+            "color": "0xfd8902",
+            "position": {
+                "x": 200,
+                "y": 70
+            },
+            "width": 400,
+            "height": 500
+        },
+        {
+            "shape": "rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 1,
+            "color": "0x311102",
+            "position": {
+                "x": 200,
+                "y": 70
+            },
+            "width": 400,
+            "height": 60
+        },
+        {
+            "type": "text",
+            "text": "Edit Password",
+            "style": {
+                "font": "bold 25pt Arial",
+                "fill": "white",
+                "align": "center"
+            },
+            "position": {
+                "x": 300,
+                "y": 80
+            }
+        }
+    ]
+}
